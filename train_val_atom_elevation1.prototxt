@@ -1,0 +1,413 @@
+name: "RenderForCNN"
+layer {
+  name: "data"
+  type: "Data"
+  top: "data"
+  top: "label"
+  data_param {
+    source: "/media/cad/3fafa74e-c460-4512-8fb2-4a08ea3c1ef7/atom/img_train_lmdb"
+    #source: "/media/cad/Elements/viewpoint/atom/img_train8_lmdb"
+    backend: LMDB
+    batch_size: 192
+  }
+  transform_param {
+    crop_size: 256
+    mirror: false
+    mean_file:"/home/cad/disk/linux/RenderForCNN-master/train/imagenet_mean.binaryproto"
+  }
+  include: { phase: TRAIN }
+
+}
+layer {
+  name: "data"
+  type: "Data"
+  top: "data"
+  top: "label"
+  data_param {
+    source: "/media/cad/3fafa74e-c460-4512-8fb2-4a08ea3c1ef7/atom/img_test_lmdb"
+    #source: "/home/cad/disk/linux/RenderForCNN-master/data/fish/test1/img_test_lmdb"
+    #source: "/media/cad/Elements/viewpoint/atom/img_test8_lmdb"
+    #source: "/home/cad/disk/linux/RenderForCNN-master/data/engine/2352-test/img_test_lmdb"
+    backend: LMDB
+    batch_size: 192
+  }
+  transform_param {
+    crop_size: 256
+    mirror: false
+    mean_file:"/home/cad/disk/linux/RenderForCNN-master/train/imagenet_mean.binaryproto"
+  }
+  include: { phase: TEST }
+}
+layer {
+  name: "conv1"
+  type: "Convolution"
+  bottom: "data"
+  top: "conv1"
+  param { #weights
+    lr_mult: 0
+    decay_mult: 0
+  }
+  param { #bias
+    lr_mult: 0
+    decay_mult: 0  
+  }
+  convolution_param {
+    num_output: 96
+    kernel_size: 11
+    stride: 4
+  }
+}
+layer {
+  name: "relu1"
+  type: "ReLU"
+  bottom: "conv1"
+  top: "conv1"
+}
+layer {
+  name: "pool1"
+  type: "Pooling"
+  bottom: "conv1"
+  top: "pool1"
+  pooling_param {
+    kernel_size: 3
+    stride: 2
+    pool: MAX
+  }
+}
+layer {
+  name: "norm1"
+  type: "LRN"
+  bottom: "pool1"
+  top: "norm1"
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layer {
+  name: "conv2"
+  type: "Convolution"
+  bottom: "norm1"
+  top: "conv2"
+  param { #weights
+    lr_mult: 0
+    decay_mult: 0
+  }
+  param { #bias
+    lr_mult: 0
+    decay_mult: 0  
+  }
+  convolution_param {
+    num_output: 256
+    pad: 2
+    kernel_size: 5
+    group: 2
+  }
+}
+layer {
+  name: "relu2"
+  type: "ReLU"
+  bottom: "conv2"
+  top: "conv2"
+}
+layer {
+  name: "pool2"
+  type: "Pooling"
+  bottom: "conv2"
+  top: "pool2"
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layer {
+  name: "norm2"
+  type: "LRN"
+  bottom: "pool2"
+  top: "norm2"
+  lrn_param {
+    local_size: 5
+    alpha: 0.0001
+    beta: 0.75
+  }
+}
+layer {
+  name: "conv3"
+  type: "Convolution"
+  bottom: "norm2"
+  top: "conv3"
+  param { #weights
+    lr_mult: 0
+    decay_mult: 0
+  }
+  param { #bias
+    lr_mult: 0
+    decay_mult: 0  
+  }
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+  }
+}
+layer {
+  name: "relu3"
+  type: "ReLU"
+  bottom: "conv3"
+  top: "conv3"
+}
+layer {
+  name: "conv4"
+  type: "Convolution"
+  bottom: "conv3"
+  top: "conv4"
+  param { #weights
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param { #bias
+    lr_mult: 1
+    decay_mult: 0  
+  }
+  convolution_param {
+    num_output: 384
+    pad: 1
+    kernel_size: 3
+    #weight_filler {
+    #  type: "gaussian"
+    #  std: 0.01
+    #}
+    group: 2
+  }
+}
+layer {
+  name: "relu4"
+  type: "ReLU"
+  bottom: "conv4"
+  top: "conv4"
+}
+layer {
+  name: "conv5"
+  type: "Convolution"
+  bottom: "conv4"
+  top: "conv5"
+  param { #weights
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param { #bias
+    lr_mult: 1
+    decay_mult: 0  
+  }
+  convolution_param {
+    num_output: 256
+    pad: 1
+    kernel_size: 3
+    #weight_filler {
+    #  type: "gaussian"
+    #  std: 0.01
+    #}
+    group: 2
+  }
+}
+layer {
+  name: "relu5"
+  type: "ReLU"
+  bottom: "conv5"
+  top: "conv5"
+}
+layer {
+  name: "pool5"
+  type: "Pooling"
+  bottom: "conv5"
+  top: "pool5"
+  pooling_param {
+    pool: MAX
+    kernel_size: 3
+    stride: 2
+  }
+}
+layer {
+  name: "fc6-new"
+  type: "InnerProduct"
+  bottom: "pool5"
+  top: "fc6-new"
+  param { #weights
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param { #bias
+    lr_mult: 1
+    decay_mult: 0  
+  }
+  inner_product_param {
+    num_output: 4096
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+  }
+}
+layer {
+  name: "relu6"
+  type: "ReLU"
+  bottom: "fc6-new"
+  top: "fc6-new"
+}
+layer {
+  name: "drop6"
+  type: "Dropout"
+  bottom: "fc6-new"
+  top: "fc6-new"
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layer {
+  name: "fc7-new"
+  type: "InnerProduct"
+  bottom: "fc6-new"
+  top: "fc7-new"
+  param { #weights
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param { #bias
+    lr_mult: 1
+    decay_mult: 0  
+  }
+  inner_product_param {
+    num_output: 4096
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+layer {
+  name: "relu7"
+  type: "ReLU"
+  bottom: "fc7-new"
+  top: "fc7-new"
+}
+layer {
+  name: "drop7"
+  type: "Dropout"
+  bottom: "fc7-new"
+  top: "fc7-new"
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+
+layer {
+  name: "fc8-new"
+  type: "InnerProduct"
+  bottom: "fc7-new"
+  top: "fc8-new"
+  param { #weights
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param { #bias
+    lr_mult: 1
+    decay_mult: 0  
+  }
+  inner_product_param {
+    #num_output: 2352
+    num_output: 180
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+
+layer {
+  name: "loss_view-new"
+  #type: "SoftmaxWithSphereLoss"
+  type: "SoftmaxWithLoss"
+  #softmax_with_sphere_loss_param {
+  #  bandwidth: 2
+  #  sigma: 2
+  #}
+  bottom: "fc8-new"
+  bottom: "label"
+  top: "loss_view-new"
+  #loss_weight: 1
+}
+layer {
+  name: "accuracy_view1"
+  #type: "AccuracySphere"
+  type: "Accuracy"
+  bottom: "fc8-new"
+  bottom: "label"
+  top: "accuracy_view1"
+  #accuracy_sphere_param {
+  #  tol_angle: 1
+    #top_k : 5 
+  #}
+}
+
+layers {
+  name: "accuracy_view0"
+  type: ACCURACY_VIEW
+  bottom: "fc8-new"
+  bottom: "label"
+  top: "accuracy_view0"
+  accuracy_view_param {
+    tol_angle: 0
+    period: 180
+  }
+  include: { phase: TEST }
+}
+
+layer {
+  name: "accuracy_view1"
+  type: "AccuracyView"
+  bottom: "fc8-new"
+  bottom: "label"
+  top: "accuracy_view1"
+  accuracy_view_param {
+    tol_angle: 1
+    period: 180
+  }
+  include: { phase: TEST }
+}
+
+layer {
+  name: "accuracy_view2"
+  type: "AccuracyView"
+  bottom: "fc8-new"
+  bottom: "label"
+  top: "accuracy_view2"
+  accuracy_view_param {
+    tol_angle: 2
+    period: 180
+  }
+  include: { phase: TEST }
+}
+
+layer {
+  name: "accuracy_view3"
+  type: "AccuracyView"
+  bottom: "fc8-new"
+  bottom: "label"
+  top: "accuracy_view3"
+  accuracy_view_param {
+    tol_angle: 3
+    period: 180
+  }
+  include: { phase: TEST }
+}
+

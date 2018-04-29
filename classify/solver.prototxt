@@ -1,0 +1,16 @@
+net: "/home/cad/disk/linux/RenderForCNN-master/train/classify/view_classify.prototxt"
+#test_iter: 75
+#test_interval: 200
+base_lr: 0.001
+lr_policy: "multistep"
+gamma: 0.2
+stepvalue: 20
+stepvalue: 400
+display: 20
+max_iter: 30000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 200
+snapshot_prefix: "VIEW_CLASSIFY"
+solver_mode: GPU
+debug_info: false

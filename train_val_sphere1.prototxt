@@ -5,8 +5,8 @@ layer {
   top: "data"
   top: "label"
   data_param {
-    #source: "/media/cad/3fafa74e-c460-4512-8fb2-4a08ea3c1ef7/vp_lmdb/head-color/img_train_lmdb"
-    source: "/media/cad/Elements/vp_data/head/img_train_lmdb"
+    source: "/media/cad/3fafa74e-c460-4512-8fb2-4a08ea3c1ef7/vp_lmdb/head-color/img_train_lmdb"
+    #source: "/media/cad/Elements/vp_data/head/img_train_lmdb"
     #source: "/media/cad/3fafa74e-c460-4512-8fb2-4a08ea3c1ef7/vp_lmdb/head-color/img_train_lmdb"
     #source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/vismale-color/img_train_lmdb"
     backend: LMDB
@@ -26,10 +26,10 @@ layer {
   top: "data"
   top: "label"
   data_param {
-    #source: "/media/cad/3fafa74e-c460-4512-8fb2-4a08ea3c1ef7/fish/test/img_test_lmdb3"
+    source: "/media/cad/0C66F84266F82DD8/vp_lmdb/bonsai-new/img_train_lmdb"
     #source: "/home/cad/disk/linux/RenderForCNN-master/data/fish/test1/img_test_lmdb"
     #source: "/media/cad/Elements/vp_data/img_test_lmdb"
-    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/fish/img_test_lmdb"
+    #source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/fish/img_test_lmdb"
     backend: LMDB
     batch_size: 448
   }

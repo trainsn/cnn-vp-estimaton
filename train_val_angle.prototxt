@@ -4,7 +4,8 @@ layers {
   type: DATA
   top: "data"
   data_param {
-    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/fish_angle/img_train_image"
+    #source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/head_angle/img_train_image"
+    source: "/media/cad/0C66F84266F82DD8/vp_lmdb/head/img_train_lmdb"
     backend: LMDB
     batch_size: 448
 
@@ -22,7 +23,8 @@ layers {
   type: DATA
   top: "label"
   data_param {
-    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/fish_angle/img_train_label"
+    #source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/head_angle/img_train_label"
+    source: "/media/cad/0C66F84266F82DD8/vp_lmdb/head/label_train_lmdb"
     backend: LMDB
     batch_size: 448
   }
@@ -33,9 +35,9 @@ layers {
   type: DATA
   top: "data"
   data_param {
-    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/fish_angle/img_test_image"
+    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/head/img_test_lmdb"
     backend: LMDB
-    batch_size: 450
+    batch_size: 300
 
   }
   transform_param {
@@ -50,9 +52,9 @@ layers {
   type: DATA
   top: "label"
   data_param {
-    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/fish_angle/img_test_label"
+    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/head/label_test_lmdb"
     backend: LMDB
-    batch_size: 450
+    batch_size: 300
   }
   include: { phase: TEST }
 }
@@ -61,8 +63,9 @@ layers {
   type: SLICE
   bottom: "label"
   top: "label_class"
-  top: "label_azimuth"
+# if not fish
   top: "label_elevation"
+  top: "label_azimuth"  
   slice_param {
     slice_dim: 1
     slice_point: 1

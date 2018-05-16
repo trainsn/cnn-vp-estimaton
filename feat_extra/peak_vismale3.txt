@@ -1,80 +1,212 @@
 nohup: 忽略输入
-4 1.18808
-5 1.35742
-7 1.32262
-8 1.20649
-9 1.17527
-12 1.16979
-21 2.33739
-23 1.12342
-24 1.05736
-35 1.0349
-36 1.35544
-37 1.20262
-38 1.26243
-39 1.98087
-40 1.85113
-41 2.04007
-45 1.26296
-46 1.12707
-47 1.63152
-48 1.86074
-49 1.80494
-50 1.11661
-51 1.0138
-52 1.23378
-56 1.02202
-58 1.06312
-62 1.49459
-63 1.43
-64 1.10194
-65 1.41886
-68 1.67009
-71 1.13774
-83 1.3142
-89 1.40604
-91 1.01002
-93 1.03012
-100 1.16033
-102 1.00012
-103 1.38544
-107 1.39645
-114 1.0518
-115 1.16211
-118 1.12039
-122 1.07914
-130 1.10343
-134 1.63805
-144 1.18808
-145 1.35742
-147 1.32262
-148 1.20649
-149 1.17527
-152 1.16979
-161 2.33739
-163 1.12342
-164 1.05736
-175 1.0349
-176 1.35544
-177 1.20262
-178 1.26243
-179 1.98087
-180 1.85113
-181 2.04007
-185 1.26296
-186 1.12707
-187 1.63152
-188 1.86074
-189 1.80494
-190 1.11661
-191 1.0138
-192 1.23378
-196 1.02202
-198 1.06312
-202 1.49459
-203 1.43
-204 1.10194
-205 1.41886
+1 2.88228
+2 3.00622
+3 2.56892
+4 3.21075
+5 3.61391
+6 3.09844
+7 3.63679
+8 3.47346
+9 3.30214
+10 2.55586
+11 1.88551
+12 3.43998
+13 2.85178
+14 2.3223
+15 2.25432
+16 2.05162
+17 1.59584
+18 1.86995
+19 2.47796
+20 2.78047
+21 4.78464
+22 2.28541
+23 3.52662
+24 3.11094
+25 2.52409
+26 2.71251
+27 3.11704
+28 2.79878
+29 2.78544
+30 2.20963
+31 2.87189
+32 2.56254
+33 3.21266
+34 1.94503
+35 3.28086
+36 3.41597
+37 3.36588
+38 3.55848
+39 4.25532
+40 3.93024
+41 4.48234
+42 3.1515
+43 2.92138
+44 2.10852
+45 3.63915
+46 3.37409
+47 3.82558
+48 4.19845
+49 4.08403
+50 2.93112
+51 2.6951
+52 2.99857
+53 3.14582
+54 2.05842
+55 2.25013
+56 3.69195
+57 2.79209
+58 3.3643
+59 2.63932
+60 2.24477
+61 2.65182
+62 3.84324
+63 3.78901
+64 3.41346
+65 3.76356
+66 1.93399
+67 2.06516
+68 4.10096
+69 2.26142
+70 2.8434
+71 3.19391
+72 2.69939
+73 1.80493
+74 2.16928
+75 1.91532
+76 2.22266
+77 2.28812
+78 2.0958
+79 2.11607
+80 1.46283
+81 2.00074
+82 1.54453
+83 3.38125
+84 2.40341
+85 1.67675
+86 2.61369
+87 2.76445
+88 4.07954
+89 3.74972
+90 2.68916
+91 3.00321
+92 2.4367
+93 3.44912
+94 1.97033
+95 2.2248
+96 3.13458
+97 2.80943
+98 1.90344
+99 2.2511
+100 3.17364
+101 2.53123
+102 2.99093
+103 4.00735
+104 2.6285
+105 1.70543
+106 2.05962
+107 3.50775
+108 1.74067
+109 2.12107
+110 2.60812
+111 2.01957
+112 2.27806
+113 2.68631
+114 3.25457
+115 3.03808
+116 1.62091
+117 1.50341
+118 3.34075
+119 3.13848
+120 2.27508
+121 3.06508
+122 2.643
+123 2.12251
+124 2.50591
+125 1.97519
+126 2.41657
+127 2.75878
+128 1.83354
+129 2.05437
+130 3.2866
+131 2.40723
+132 1.94091
+133 2.61184
+134 4.04728
+135 3.02892
+136 2.11717
+137 2.64006
+138 1.73311
+139 2.15705
+140 1.74116
+141 2.88228
+142 3.00622
+143 2.56892
+144 3.21075
+145 3.61391
+146 3.09844
+147 3.63679
+148 3.47346
+149 3.30214
+150 2.55586
+151 1.88551
+152 3.43998
+153 2.85178
+154 2.3223
+155 2.25432
+156 2.05162
+157 1.59584
+158 1.86995
+159 2.47796
+160 2.78047
+161 4.78464
+162 2.28541
+163 3.52662
+164 3.11094
+165 2.52409
+166 2.71251
+167 3.11704
+168 2.79878
+169 2.78544
+170 2.20963
+171 2.87189
+172 2.56254
+173 3.21266
+174 1.94503
+175 3.28086
+176 3.41597
+177 3.36588
+178 3.55848
+179 4.25532
+180 3.93024
+181 4.48234
+182 3.1515
+183 2.92138
+184 2.10852
+185 3.63915
+186 3.37409
+187 3.82558
+188 4.19845
+189 4.08403
+190 2.93112
+191 2.6951
+192 2.99857
+193 3.14582
+194 2.05842
+195 2.25013
+196 3.69195
+197 2.79209
+198 3.3643
+199 2.63932
+200 2.24477
+201 2.65182
+202 3.84324
+203 3.78901
+204 3.41346
+205 3.76356
+206 1.93399
+207 2.06516
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/1.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/1.bmp 
 0.0673 - "694 64.6231_321.429
 "
@@ -96,6 +228,11 @@ nohup: 忽略输入
 "
 0.0350 - "526 55.1501_324.643
 "
+0.0349 - "583 58.4119_327.857
+"
+0.0321 - "525 55.1501_318.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/2.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/2.bmp 
 0.0759 - "1236 92.7294_205.714
 "
@@ -117,6 +254,11 @@ nohup: 忽略输入
 "
 0.0317 - "1347 98.2132_199.286
 "
+0.0299 - "1349 98.2132_212.143
+"
+0.0290 - "1404 100.981_208.929
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/3.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/3.bmp 
 0.0860 - "1120 87.2706_180
 "
@@ -138,6 +280,11 @@ nohup: 忽略输入
 "
 0.0395 - "1008 81.7868_180
 "
+0.0368 - "1174 90_170.357
+"
+0.0279 - "1007 81.7868_173.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/4.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/4.bmp 
 0.1086 - "1233 92.7294_186.429
 "
@@ -159,6 +306,11 @@ nohup: 忽略输入
 "
 0.0352 - "1120 87.2706_180
 "
+0.0323 - "1064 84.535_183.214
+"
+0.0275 - "1122 87.2706_192.857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/5.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/5.bmp 
 0.0121 - "2015 135.446_190.385
 "
@@ -180,6 +332,11 @@ nohup: 忽略输入
 "
 0.0098 - "1906 128.247_192.857
 "
+0.0096 - "2017 135.446_204.231
+"
+0.0095 - "2111 142.581_192.273
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/6.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/6.bmp 
 0.0880 - "1909 128.247_212.143
 "
@@ -201,6 +358,11 @@ nohup: 忽略输入
 "
 0.0376 - "1966 131.81_221.786
 "
+0.0338 - "2018 135.446_211.154
+"
+0.0302 - "2019 135.446_218.077
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/7.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/7.bmp 
 0.0402 - "579 58.4119_302.143
 "
@@ -222,6 +384,11 @@ nohup: 忽略输入
 "
 0.0292 - "803 70.5288_302.143
 "
+0.0287 - "747 67.6073_305.357
+"
+0.0272 - "692 64.6231_308.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/8.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/8.bmp 
 0.0417 - "312 44.5544_3.46154
 "
@@ -243,6 +410,11 @@ nohup: 忽略输入
 "
 0.0274 - "421 51.7534_6.42857
 "
+0.0272 - "418 48.1897_350.357
+"
+0.0256 - "220 37.4186_4.09091
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/9.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/9.bmp 
 0.1056 - "1089 84.535_343.929
 "
@@ -264,6 +436,11 @@ nohup: 忽略输入
 "
 0.0446 - "1088 84.535_337.5
 "
+0.0380 - "1090 84.535_350.357
+"
+0.0249 - "1258 92.7294_347.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/10.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/10.bmp 
 0.0341 - "564 58.4119_205.714
 "
@@ -285,6 +462,11 @@ nohup: 忽略输入
 "
 0.0234 - "453 51.7534_212.143
 "
+0.0220 - "677 64.6231_212.143
+"
+0.0220 - "395 48.1897_202.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/11.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/11.bmp 
 0.0192 - "1636 112.393_260.357
 "
@@ -306,6 +488,11 @@ nohup: 忽略输入
 "
 0.0154 - "1691 115.377_250.714
 "
+0.0150 - "1524 106.602_260.357
+"
+0.0148 - "1638 112.393_273.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/12.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/12.bmp 
 0.1598 - "1855 124.85_228.214
 "
@@ -327,6 +514,11 @@ nohup: 忽略输入
 "
 0.0315 - "1967 131.81_228.214
 "
+0.0256 - "1744 118.437_234.643
+"
+0.0207 - "1798 121.588_218.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/13.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/13.bmp 
 0.1038 - "1351 98.2132_225
 "
@@ -348,6 +540,11 @@ nohup: 忽略输入
 "
 0.0292 - "1183 90_228.214
 "
+0.0272 - "1240 92.7294_231.429
+"
+0.0270 - "1238 92.7294_218.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/14.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/14.bmp 
 0.1072 - "1351 98.2132_225
 "
@@ -369,6 +566,11 @@ nohup: 忽略输入
 "
 0.0366 - "1463 103.774_225
 "
+0.0306 - "1183 90_228.214
+"
+0.0299 - "1352 98.2132_231.429
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/15.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/15.bmp 
 0.0771 - "1399 100.981_176.786
 "
@@ -390,6 +592,11 @@ nohup: 忽略输入
 "
 0.0415 - "1288 95.465_183.214
 "
+0.0328 - "1512 106.602_183.214
+"
+0.0280 - "1232 92.7294_180
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/16.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/16.bmp 
 0.0439 - "1532 106.602_311.786
 "
@@ -411,6 +618,11 @@ nohup: 忽略输入
 "
 0.0238 - "1533 106.602_318.214
 "
+0.0222 - "1644 112.393_311.786
+"
+0.0219 - "1475 103.774_302.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/17.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/17.bmp 
 0.0625 - "975 79.0194_331.071
 "
@@ -432,6 +644,11 @@ nohup: 忽略输入
 "
 0.0357 - "1032 81.7868_334.286
 "
+0.0288 - "750 67.6073_324.643
+"
+0.0267 - "806 70.5288_321.429
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/18.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/18.bmp 
 0.0253 - "1257 92.7294_340.714
 "
@@ -453,6 +670,11 @@ nohup: 忽略输入
 "
 0.0176 - "1256 92.7294_334.286
 "
+0.0162 - "1370 98.2132_347.143
+"
+0.0160 - "1202 90_350.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/19.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/19.bmp 
 0.1024 - "1404 100.981_208.929
 "
@@ -474,6 +696,11 @@ nohup: 忽略输入
 "
 0.0401 - "1292 95.465_208.929
 "
+0.0303 - "1572 109.471_205.714
+"
+0.0285 - "1403 100.981_202.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/20.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/20.bmp 
 0.0288 - "441 51.7534_135
 "
@@ -495,6 +722,11 @@ nohup: 忽略输入
 "
 0.0195 - "386 48.1897_144.643
 "
+0.0186 - "609 61.5631_138.214
+"
+0.0185 - "554 58.4119_141.429
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/21.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/21.bmp 
 0.0903 - "1009 81.7868_186.429
 "
@@ -516,6 +748,11 @@ nohup: 忽略输入
 "
 0.0372 - "896 76.2259_180
 "
+0.0346 - "841 73.3985_189.643
+"
+0.0332 - "898 76.2259_192.857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/22.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/22.bmp 
 0.0621 - "1399 100.981_176.786
 "
@@ -537,6 +774,11 @@ nohup: 忽略输入
 "
 0.0332 - "1511 106.602_176.786
 "
+0.0319 - "1286 95.465_170.357
+"
+0.0307 - "1232 92.7294_180
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/23.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/23.bmp 
 0.1470 - "1459 103.774_199.286
 "
@@ -558,6 +800,11 @@ nohup: 忽略输入
 "
 0.0298 - "1348 98.2132_205.714
 "
+0.0294 - "1572 109.471_205.714
+"
+0.0212 - "1346 98.2132_192.857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/24.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/24.bmp 
 0.1039 - "1348 98.2132_205.714
 "
@@ -579,6 +826,11 @@ nohup: 忽略输入
 "
 0.0421 - "1291 95.465_202.5
 "
+0.0380 - "1347 98.2132_199.286
+"
+0.0357 - "1572 109.471_205.714
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/25.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/25.bmp 
 0.0981 - "1575 109.471_225
 "
@@ -600,6 +852,11 @@ nohup: 忽略输入
 "
 0.0341 - "1629 112.393_215.357
 "
+0.0329 - "1576 109.471_231.429
+"
+0.0286 - "1462 103.774_218.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/26.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/26.bmp 
 0.0827 - "1517 106.602_215.357
 "
@@ -621,6 +878,11 @@ nohup: 忽略输入
 "
 0.0341 - "1628 112.393_208.929
 "
+0.0338 - "1406 100.981_221.786
+"
+0.0316 - "1350 98.2132_218.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/27.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/27.bmp 
 0.1126 - "1290 95.465_196.071
 "
@@ -642,6 +904,11 @@ nohup: 忽略输入
 "
 0.0390 - "1236 92.7294_205.714
 "
+0.0380 - "1178 90_196.071
+"
+0.0351 - "1179 90_202.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/28.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/28.bmp 
 0.0099 - "1356 98.2132_257.143
 "
@@ -663,6 +930,11 @@ nohup: 忽略输入
 "
 0.0079 - "1636 112.393_260.357
 "
+0.0078 - "1469 103.774_263.571
+"
+0.0078 - "1467 103.774_250.714
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/29.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/29.bmp 
 0.0424 - "1396 100.981_157.5
 "
@@ -684,6 +956,11 @@ nohup: 忽略输入
 "
 0.0241 - "1263 95.465_22.5
 "
+0.0239 - "1375 100.981_22.5
+"
+0.0232 - "1284 95.465_157.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/30.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/30.bmp 
 0.1032 - "1534 106.602_324.643
 "
@@ -705,6 +982,11 @@ nohup: 忽略输入
 "
 0.0364 - "1589 109.471_315
 "
+0.0340 - "1477 103.774_315
+"
+0.0326 - "1421 100.981_318.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/31.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/31.bmp 
 0.0937 - "1537 106.602_343.929
 "
@@ -726,6 +1008,11 @@ nohup: 忽略输入
 "
 0.0336 - "1648 112.393_337.5
 "
+0.0295 - "1705 115.377_340.714
+"
+0.0282 - "1426 100.981_350.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/32.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/32.bmp 
 0.1342 - "1699 115.377_302.143
 "
@@ -747,6 +1034,11 @@ nohup: 忽略输入
 "
 0.0335 - "1756 118.437_311.786
 "
+0.0320 - "1812 121.588_308.571
+"
+0.0276 - "1754 118.437_298.929
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/33.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/33.bmp 
 0.1689 - "1518 106.602_221.786
 "
@@ -768,6 +1060,11 @@ nohup: 忽略输入
 "
 0.0294 - "1629 112.393_215.357
 "
+0.0204 - "1407 100.981_228.214
+"
+0.0170 - "1351 98.2132_225
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/34.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/34.bmp 
 0.0618 - "1234 92.7294_192.857
 "
@@ -789,6 +1086,11 @@ nohup: 忽略输入
 "
 0.0310 - "1289 95.465_189.643
 "
+0.0295 - "1066 84.535_196.071
+"
+0.0279 - "1233 92.7294_186.429
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/35.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/35.bmp 
 0.0797 - "851 73.3985_253.929
 "
@@ -810,6 +1112,11 @@ nohup: 忽略输入
 "
 0.0372 - "740 67.6073_260.357
 "
+0.0338 - "739 67.6073_253.929
+"
+0.0333 - "797 70.5288_263.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/36.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/36.bmp 
 0.1011 - "961 79.0194_241.071
 "
@@ -831,6 +1138,11 @@ nohup: 忽略输入
 "
 0.0371 - "794 70.5288_244.286
 "
+0.0370 - "848 73.3985_234.643
+"
+0.0294 - "907 76.2259_250.714
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/37.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/37.bmp 
 0.1359 - "1074 84.535_247.5
 "
@@ -852,6 +1164,11 @@ nohup: 忽略输入
 "
 0.0341 - "961 79.0194_241.071
 "
+0.0300 - "1185 90_241.071
+"
+0.0298 - "1017 81.7868_237.857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/38.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/38.bmp 
 0.0337 - "1092 87.2706_0
 "
@@ -873,6 +1190,11 @@ nohup: 忽略输入
 "
 0.0215 - "1317 98.2132_6.42857
 "
+0.0214 - "1315 95.465_356.786
+"
+0.0214 - "1093 87.2706_6.42857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/39.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/39.bmp 
 0.1066 - "1301 95.465_266.786
 "
@@ -894,6 +1216,11 @@ nohup: 忽略输入
 "
 0.0357 - "1357 98.2132_263.571
 "
+0.0329 - "1470 103.774_270
+"
+0.0320 - "1134 87.2706_270
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/40.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/40.bmp 
 0.1531 - "1413 100.981_266.786
 "
@@ -915,6 +1242,11 @@ nohup: 忽略输入
 "
 0.0318 - "1245 92.7294_263.571
 "
+0.0217 - "1526 106.602_273.214
+"
+0.0205 - "1300 95.465_260.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/41.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/41.bmp 
 0.0947 - "1358 98.2132_270
 "
@@ -936,6 +1268,11 @@ nohup: 忽略输入
 "
 0.0383 - "1471 103.774_276.429
 "
+0.0345 - "1357 98.2132_263.571
+"
+0.0334 - "1525 106.602_266.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/42.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/42.bmp 
 0.0442 - "101 23.5565_225
 "
@@ -957,6 +1294,11 @@ nohup: 忽略输入
 "
 0.0262 - "74 20.1531_217.5
 "
+0.0231 - "76 20.1531_247.5
+"
+0.0231 - "134 26.9811_253.125
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/43.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/43.bmp 
 0.0392 - "1349 98.2132_212.143
 "
@@ -978,6 +1320,11 @@ nohup: 忽略输入
 "
 0.0222 - "1126 87.2706_218.571
 "
+0.0209 - "1181 90_215.357
+"
+0.0204 - "1069 84.535_215.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/44.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/44.bmp 
 0.0267 - "1146 87.2706_347.143
 "
@@ -999,6 +1346,11 @@ nohup: 忽略输入
 "
 0.0189 - "1202 90_350.357
 "
+0.0168 - "977 79.0194_343.929
+"
+0.0164 - "1144 87.2706_334.286
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/45.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/45.bmp 
 0.1074 - "11 6.68691_337.5
 "
@@ -1020,6 +1372,11 @@ nohup: 忽略输入
 "
 0.0370 - "37 13.3967_303.75
 "
+0.0356 - "9 6.68691_247.5
+"
+0.0348 - "2 3.34203_225
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/46.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/46.bmp 
 0.1290 - "1525 106.602_266.786
 "
@@ -1041,6 +1398,11 @@ nohup: 忽略输入
 "
 0.0373 - "1526 106.602_273.214
 "
+0.0371 - "1468 103.774_257.143
+"
+0.0248 - "1580 109.471_257.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/47.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/47.bmp 
 0.1179 - "1524 106.602_260.357
 "
@@ -1062,6 +1424,11 @@ nohup: 忽略输入
 "
 0.0367 - "1582 109.471_270
 "
+0.0316 - "1635 112.393_253.929
+"
+0.0297 - "1412 100.981_260.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/48.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/48.bmp 
 0.1358 - "1581 109.471_263.571
 "
@@ -1083,6 +1450,11 @@ nohup: 忽略输入
 "
 0.0296 - "1638 112.393_273.214
 "
+0.0285 - "1694 115.377_270
+"
+0.0257 - "1526 106.602_273.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/49.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/49.bmp 
 0.0377 - "1531 106.602_305.357
 "
@@ -1104,6 +1476,11 @@ nohup: 忽略输入
 "
 0.0258 - "1418 100.981_298.929
 "
+0.0249 - "1643 112.393_305.357
+"
+0.0243 - "1364 98.2132_308.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/50.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/50.bmp 
 0.0587 - "1524 106.602_260.357
 "
@@ -1125,6 +1502,11 @@ nohup: 忽略输入
 "
 0.0292 - "1413 100.981_266.786
 "
+0.0285 - "1467 103.774_250.714
+"
+0.0267 - "1470 103.774_270
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/51.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/51.bmp 
 0.1537 - "1294 95.465_221.786
 "
@@ -1146,6 +1528,11 @@ nohup: 忽略输入
 "
 0.0320 - "1183 90_228.214
 "
+0.0218 - "1462 103.774_218.571
+"
+0.0204 - "1405 100.981_215.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/52.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/52.bmp 
 0.1010 - "1234 92.7294_192.857
 "
@@ -1167,6 +1554,11 @@ nohup: 忽略输入
 "
 0.0369 - "1235 92.7294_199.286
 "
+0.0307 - "1121 87.2706_186.429
+"
+0.0287 - "1288 95.465_183.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/53.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/53.bmp 
 0.1670 - "1641 112.393_292.5
 "
@@ -1188,6 +1580,11 @@ nohup: 忽略输入
 "
 0.0333 - "1529 106.602_292.5
 "
+0.0297 - "1699 115.377_302.143
+"
+0.0257 - "1754 118.437_298.929
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/54.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/54.bmp 
 0.0862 - "1578 109.471_244.286
 "
@@ -1209,6 +1606,11 @@ nohup: 忽略输入
 "
 0.0370 - "1579 109.471_250.714
 "
+0.0339 - "1520 106.602_234.643
+"
+0.0306 - "1466 103.774_244.286
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/55.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/55.bmp 
 0.0918 - "1462 103.774_218.571
 "
@@ -1230,6 +1632,11 @@ nohup: 忽略输入
 "
 0.0344 - "1349 98.2132_212.143
 "
+0.0341 - "1573 109.471_212.143
+"
+0.0323 - "1463 103.774_225
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/56.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/56.bmp 
 0.0946 - "1077 84.535_266.786
 "
@@ -1251,6 +1658,11 @@ nohup: 忽略输入
 "
 0.0319 - "1078 84.535_273.214
 "
+0.0307 - "1188 90_260.357
+"
+0.0277 - "1020 81.7868_257.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/57.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/57.bmp 
 0.0389 - "35 13.3967_258.75
 "
@@ -1272,6 +1684,11 @@ nohup: 忽略输入
 "
 0.0282 - "10 6.68691_292.5
 "
+0.0270 - "9 6.68691_247.5
+"
+0.0246 - "76 20.1531_247.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/58.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/58.bmp 
 0.0522 - "1177 90_189.643
 "
@@ -1293,6 +1710,11 @@ nohup: 忽略输入
 "
 0.0334 - "1288 95.465_183.214
 "
+0.0298 - "1176 90_183.214
+"
+0.0285 - "1066 84.535_196.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/59.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/59.bmp 
 0.0194 - "129 26.9811_196.875
 "
@@ -1314,6 +1736,11 @@ nohup: 忽略输入
 "
 0.0119 - "163 30.4304_195
 "
+0.0114 - "243 37.4186_192.273
+"
+0.0113 - "242 37.4186_184.091
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/60.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/60.bmp 
 0.0506 - "243 37.4186_192.273
 "
@@ -1335,6 +1762,11 @@ nohup: 忽略输入
 "
 0.0321 - "242 37.4186_184.091
 "
+0.0314 - "340 44.5544_197.308
+"
+0.0288 - "291 40.9657_206.25
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/61.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/61.bmp 
 0.0102 - "1849 124.85_189.643
 "
@@ -1356,6 +1788,11 @@ nohup: 忽略输入
 "
 0.0077 - "1738 118.437_196.071
 "
+0.0077 - "1681 115.377_186.429
+"
+0.0074 - "1872 124.85_337.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/62.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/62.bmp 
 0.1309 - "1425 100.981_343.929
 "
@@ -1377,6 +1814,11 @@ nohup: 忽略输入
 "
 0.0381 - "1424 100.981_337.5
 "
+0.0334 - "1594 109.471_347.143
+"
+0.0217 - "1536 106.602_337.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/63.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/63.bmp 
 0.1358 - "1465 103.774_237.857
 "
@@ -1398,6 +1840,11 @@ nohup: 忽略输入
 "
 0.0290 - "1578 109.471_244.286
 "
+0.0286 - "1352 98.2132_231.429
+"
+0.0251 - "1522 106.602_247.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/64.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/64.bmp 
 0.0411 - "1854 124.85_221.786
 "
@@ -1419,6 +1866,11 @@ nohup: 忽略输入
 "
 0.0238 - "1687 115.377_225
 "
+0.0231 - "1797 121.588_212.143
+"
+0.0225 - "1966 131.81_221.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/65.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/65.bmp 
 0.0762 - "2125 142.581_306.818
 "
@@ -1440,6 +1892,11 @@ nohup: 忽略输入
 "
 0.0355 - "1980 131.81_311.786
 "
+0.0342 - "2082 139.034_318.75
+"
+0.0299 - "1979 131.81_305.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/66.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/66.bmp 
 0.0161 - "522 55.1501_298.929
 "
@@ -1461,6 +1918,11 @@ nohup: 忽略输入
 "
 0.0112 - "691 64.6231_302.143
 "
+0.0110 - "633 61.5631_292.5
+"
+0.0108 - "690 64.6231_295.714
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/67.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/67.bmp 
 0.0509 - "1240 92.7294_231.429
 "
@@ -1482,6 +1944,11 @@ nohup: 忽略输入
 "
 0.0300 - "1351 98.2132_225
 "
+0.0290 - "1129 87.2706_237.857
+"
+0.0288 - "1407 100.981_228.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/68.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/68.bmp 
 0.1303 - "951 79.0194_176.786
 "
@@ -1503,6 +1970,11 @@ nohup: 忽略输入
 "
 0.0299 - "1064 84.535_183.214
 "
+0.0296 - "1006 81.7868_167.143
+"
+0.0248 - "1120 87.2706_180
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/69.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/69.bmp 
 0.1102 - "1525 106.602_266.786
 "
@@ -1524,6 +1996,11 @@ nohup: 忽略输入
 "
 0.0369 - "1694 115.377_270
 "
+0.0351 - "1636 112.393_260.357
+"
+0.0337 - "1583 109.471_276.429
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/70.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/70.bmp 
 0.0643 - "1294 95.465_221.786
 "
@@ -1545,6 +2022,11 @@ nohup: 忽略输入
 "
 0.0320 - "1351 98.2132_225
 "
+0.0319 - "1127 87.2706_225
+"
+0.0250 - "1295 95.465_228.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/71.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/71.bmp 
 0.0580 - "259 37.4186_323.182
 "
@@ -1566,6 +2048,11 @@ nohup: 忽略输入
 "
 0.0309 - "308 40.9657_333.75
 "
+0.0252 - "357 44.5544_315
+"
+0.0248 - "176 30.4304_325
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/72.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/72.bmp 
 0.1171 - "1586 109.471_295.714
 "
@@ -1587,6 +2074,11 @@ nohup: 忽略输入
 "
 0.0369 - "1528 106.602_286.071
 "
+0.0345 - "1417 100.981_292.5
+"
+0.0333 - "1698 115.377_295.714
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/73.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/73.bmp 
 0.0421 - "1635 112.393_253.929
 "
@@ -1608,6 +2100,11 @@ nohup: 忽略输入
 "
 0.0256 - "1637 112.393_266.786
 "
+0.0244 - "1694 115.377_270
+"
+0.0238 - "1524 106.602_260.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/74.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/74.bmp 
 0.0295 - "1686 115.377_218.571
 "
@@ -1629,6 +2126,11 @@ nohup: 忽略输入
 "
 0.0196 - "1741 118.437_215.357
 "
+0.0190 - "1518 106.602_221.786
+"
+0.0185 - "1406 100.981_221.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/75.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/75.bmp 
 0.0149 - "1071 84.535_228.214
 "
@@ -1650,6 +2152,11 @@ nohup: 忽略输入
 "
 0.0086 - "1183 90_228.214
 "
+0.0086 - "1195 90_305.357
+"
+0.0085 - "1015 81.7868_225
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/76.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/76.bmp 
 0.0319 - "1404 100.981_208.929
 "
@@ -1671,6 +2178,11 @@ nohup: 忽略输入
 "
 0.0231 - "1461 103.774_212.143
 "
+0.0193 - "1237 92.7294_212.143
+"
+0.0187 - "1571 109.471_199.286
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/77.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/77.bmp 
 0.0193 - "41 16.7676_27
 "
@@ -1692,6 +2204,11 @@ nohup: 忽略输入
 "
 0.0127 - "63 20.1531_52.5
 "
+0.0124 - "42 16.7676_45
+"
+0.0112 - "148 30.4304_45
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/78.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/78.bmp 
 0.1161 - "1308 95.465_311.786
 "
@@ -1713,6 +2230,11 @@ nohup: 忽略输入
 "
 0.0374 - "1419 100.981_305.357
 "
+0.0304 - "1476 103.774_308.571
+"
+0.0301 - "1251 92.7294_302.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/79.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/79.bmp 
 0.0682 - "1346 98.2132_192.857
 "
@@ -1734,6 +2256,11 @@ nohup: 忽略输入
 "
 0.0350 - "1233 92.7294_186.429
 "
+0.0304 - "1177 90_189.643
+"
+0.0292 - "1178 90_196.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/80.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/80.bmp 
 0.0044 - "1736 118.437_183.214
 "
@@ -1755,6 +2282,11 @@ nohup: 忽略输入
 "
 0.0033 - "1512 106.602_183.214
 "
+0.0033 - "1511 106.602_176.786
+"
+0.0032 - "1569 109.471_186.429
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/81.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/81.bmp 
 0.0197 - "8 6.68691_202.5
 "
@@ -1776,6 +2308,11 @@ nohup: 忽略输入
 "
 0.0119 - "1351 98.2132_225
 "
+0.0118 - "2 3.34203_225
+"
+0.0115 - "4 6.68691_22.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/82.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/82.bmp 
 0.0816 - "870 76.2259_12.8571
 "
@@ -1797,6 +2334,11 @@ nohup: 忽略输入
 "
 0.0343 - "812 73.3985_3.21429
 "
+0.0337 - "871 76.2259_19.2857
+"
+0.0323 - "701 67.6073_9.64286
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/83.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/83.bmp 
 0.1360 - "1463 103.774_225
 "
@@ -1818,6 +2360,11 @@ nohup: 忽略输入
 "
 0.0346 - "1576 109.471_231.429
 "
+0.0272 - "1631 112.393_228.214
+"
+0.0259 - "1630 112.393_221.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/84.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/84.bmp 
 0.0322 - "401 48.1897_241.071
 "
@@ -1839,6 +2386,11 @@ nohup: 忽略输入
 "
 0.0216 - "294 40.9657_228.75
 "
+0.0215 - "344 44.5544_225
+"
+0.0213 - "295 40.9657_236.25
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/85.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/85.bmp 
 0.0422 - "981 81.7868_6.42857
 "
@@ -1860,6 +2412,11 @@ nohup: 忽略输入
 "
 0.0314 - "813 73.3985_9.64286
 "
+0.0302 - "926 79.0194_16.0714
+"
+0.0296 - "980 81.7868_0
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/86.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/86.bmp 
 0.0347 - "1351 98.2132_225
 "
@@ -1881,6 +2438,11 @@ nohup: 忽略输入
 "
 0.0232 - "1464 103.774_231.429
 "
+0.0229 - "1240 92.7294_231.429
+"
+0.0198 - "1519 106.602_228.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/87.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/87.bmp 
 0.0690 - "1979 131.81_305.357
 "
@@ -1902,6 +2464,11 @@ nohup: 忽略输入
 "
 0.0375 - "1867 124.85_305.357
 "
+0.0310 - "2125 142.581_306.818
+"
+0.0305 - "2033 135.446_315
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/88.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/88.bmp 
 0.0550 - "1747 118.437_253.929
 "
@@ -1923,6 +2490,11 @@ nohup: 忽略输入
 "
 0.0331 - "1635 112.393_253.929
 "
+0.0280 - "1690 115.377_244.286
+"
+0.0267 - "1749 118.437_266.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/89.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/89.bmp 
 0.0076 - "440 51.7534_128.571
 "
@@ -1944,6 +2516,11 @@ nohup: 忽略输入
 "
 0.0054 - "495 55.1501_125.357
 "
+0.0053 - "553 58.4119_135
+"
+0.0052 - "283 40.9657_146.25
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/90.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/90.bmp 
 0.0616 - "729 67.6073_189.643
 "
@@ -1965,6 +2542,11 @@ nohup: 忽略输入
 "
 0.0336 - "787 70.5288_199.286
 "
+0.0324 - "618 61.5631_196.071
+"
+0.0306 - "617 61.5631_189.643
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/91.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/91.bmp 
 0.1805 - "1366 98.2132_321.429
 "
@@ -1986,6 +2568,11 @@ nohup: 忽略输入
 "
 0.0315 - "1197 90_318.214
 "
+0.0261 - "1477 103.774_315
+"
+0.0198 - "1308 95.465_311.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/92.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/92.bmp 
 0.0351 - "1196 90_311.786
 "
@@ -2007,6 +2594,11 @@ nohup: 忽略输入
 "
 0.0227 - "1422 100.981_324.643
 "
+0.0225 - "1254 92.7294_321.429
+"
+0.0223 - "1140 87.2706_308.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/93.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/93.bmp 
 0.1163 - "1291 95.465_202.5
 "
@@ -2028,6 +2620,11 @@ nohup: 忽略输入
 "
 0.0371 - "1124 87.2706_205.714
 "
+0.0336 - "1180 90_208.929
+"
+0.0280 - "1178 90_196.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/94.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/94.bmp 
 0.1197 - "1231 92.7294_173.571
 "
@@ -2049,6 +2646,11 @@ nohup: 忽略输入
 "
 0.0360 - "1344 98.2132_180
 "
+0.0334 - "1288 95.465_183.214
+"
+0.0216 - "1399 100.981_176.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/95.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/95.bmp 
 0.1084 - "1238 92.7294_218.571
 "
@@ -2070,6 +2672,11 @@ nohup: 忽略输入
 "
 0.0353 - "1125 87.2706_212.143
 "
+0.0309 - "1069 84.535_215.357
+"
+0.0308 - "1127 87.2706_225
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/96.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/96.bmp 
 0.0754 - "1190 90_273.214
 "
@@ -2091,6 +2698,11 @@ nohup: 忽略输入
 "
 0.0370 - "1191 90_279.643
 "
+0.0310 - "1022 81.7868_270
+"
+0.0279 - "1023 81.7868_276.429
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/97.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/97.bmp 
 0.0575 - "1702 115.377_321.429
 "
@@ -2112,6 +2724,11 @@ nohup: 忽略输入
 "
 0.0291 - "1813 121.588_315
 "
+0.0282 - "1533 106.602_318.214
+"
+0.0282 - "1589 109.471_315
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/98.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/98.bmp 
 0.0529 - "1532 106.602_311.786
 "
@@ -2133,6 +2750,11 @@ nohup: 忽略输入
 "
 0.0310 - "1643 112.393_305.357
 "
+0.0308 - "1533 106.602_318.214
+"
+0.0279 - "1475 103.774_302.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/99.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/99.bmp 
 0.1211 - "1698 115.377_295.714
 "
@@ -2154,6 +2776,11 @@ nohup: 忽略输入
 "
 0.0354 - "1809 121.588_289.286
 "
+0.0301 - "1587 109.471_302.143
+"
+0.0236 - "1752 118.437_286.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/100.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/100.bmp 
 0.0773 - "1588 109.471_308.571
 "
@@ -2175,6 +2802,11 @@ nohup: 忽略输入
 "
 0.0370 - "1475 103.774_302.143
 "
+0.0331 - "1420 100.981_311.786
+"
+0.0325 - "1477 103.774_315
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/101.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/101.bmp 
 0.0959 - "1760 118.437_337.5
 "
@@ -2196,6 +2828,11 @@ nohup: 忽略输入
 "
 0.0460 - "1761 118.437_343.929
 "
+0.0350 - "1706 115.377_347.143
+"
+0.0346 - "1647 112.393_331.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/102.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/102.bmp 
 0.0799 - "1129 87.2706_237.857
 "
@@ -2217,6 +2854,11 @@ nohup: 忽略输入
 "
 0.0375 - "1296 95.465_234.643
 "
+0.0344 - "1017 81.7868_237.857
+"
+0.0325 - "1240 92.7294_231.429
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/103.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/103.bmp 
 0.0647 - "1188 90_260.357
 "
@@ -2238,6 +2880,11 @@ nohup: 忽略输入
 "
 0.0308 - "1357 98.2132_263.571
 "
+0.0307 - "1077 84.535_266.786
+"
+0.0293 - "1187 90_253.929
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/104.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/104.bmp 
 0.0236 - "2080 139.034_303.75
 "
@@ -2259,6 +2906,11 @@ nohup: 忽略输入
 "
 0.0175 - "1979 131.81_305.357
 "
+0.0169 - "1978 131.81_298.929
+"
+0.0169 - "2165 146.092_301.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/105.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/105.bmp 
 0.0630 - "1692 115.377_257.143
 "
@@ -2280,6 +2932,11 @@ nohup: 忽略输入
 "
 0.0353 - "1637 112.393_266.786
 "
+0.0335 - "1691 115.377_250.714
+"
+0.0274 - "1804 121.588_257.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/106.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/106.bmp 
 0.0803 - "1242 92.7294_244.286
 "
@@ -2301,6 +2958,11 @@ nohup: 忽略输入
 "
 0.0344 - "1353 98.2132_237.857
 "
+0.0332 - "1073 84.535_241.071
+"
+0.0312 - "1074 84.535_247.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/107.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/107.bmp 
 0.0757 - "1312 95.465_337.5
 "
@@ -2322,6 +2984,11 @@ nohup: 忽略输入
 "
 0.0359 - "1199 90_331.071
 "
+0.0323 - "1144 87.2706_334.286
+"
+0.0318 - "1201 90_343.929
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/108.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/108.bmp 
 0.0832 - "1356 98.2132_257.143
 "
@@ -2343,6 +3010,11 @@ nohup: 忽略输入
 "
 0.0351 - "1467 103.774_250.714
 "
+0.0335 - "1524 106.602_260.357
+"
+0.0327 - "1469 103.774_263.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/109.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/109.bmp 
 0.0390 - "1868 124.85_311.786
 "
@@ -2364,6 +3036,11 @@ nohup: 忽略输入
 "
 0.0288 - "1700 115.377_308.571
 "
+0.0288 - "1979 131.81_305.357
+"
+0.0261 - "1923 128.247_302.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/110.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/110.bmp 
 0.0561 - "1400 100.981_183.214
 "
@@ -2385,6 +3062,11 @@ nohup: 忽略输入
 "
 0.0319 - "1344 98.2132_180
 "
+0.0313 - "1512 106.602_183.214
+"
+0.0295 - "1234 92.7294_192.857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/111.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/111.bmp 
 0.0523 - "1402 100.981_196.071
 "
@@ -2406,6 +3088,11 @@ nohup: 忽略输入
 "
 0.0318 - "1457 103.774_186.429
 "
+0.0301 - "1403 100.981_202.5
+"
+0.0294 - "1514 106.602_196.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/112.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/112.bmp 
 0.0877 - "1291 95.465_202.5
 "
@@ -2427,6 +3114,11 @@ nohup: 忽略输入
 "
 0.0382 - "1292 95.465_208.929
 "
+0.0352 - "1459 103.774_199.286
+"
+0.0311 - "1346 98.2132_192.857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/113.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/113.bmp 
 0.1275 - "1177 90_189.643
 "
@@ -2448,6 +3140,11 @@ nohup: 忽略输入
 "
 0.0332 - "1290 95.465_196.071
 "
+0.0259 - "1346 98.2132_192.857
+"
+0.0232 - "1235 92.7294_199.286
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/114.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/114.bmp 
 0.1824 - "1525 106.602_266.786
 "
@@ -2469,6 +3166,11 @@ nohup: 忽略输入
 "
 0.0330 - "1693 115.377_263.571
 "
+0.0254 - "1526 106.602_273.214
+"
+0.0215 - "1694 115.377_270
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/115.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/115.bmp 
 0.1909 - "1688 115.377_231.429
 "
@@ -2490,6 +3192,11 @@ nohup: 忽略输入
 "
 0.0262 - "1800 121.588_231.429
 "
+0.0233 - "1689 115.377_237.857
+"
+0.0207 - "1519 106.602_228.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/116.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/116.bmp 
 0.0452 - "1298 95.465_247.5
 "
@@ -2511,6 +3218,11 @@ nohup: 忽略输入
 "
 0.0252 - "5 6.68691_67.5
 "
+0.0226 - "1297 95.465_241.071
+"
+0.0213 - "0 3.34203_45
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/117.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/117.bmp 
 0.0155 - "562 58.4119_192.857
 "
@@ -2532,6 +3244,11 @@ nohup: 忽略输入
 "
 0.0104 - "697 64.6231_340.714
 "
+0.0100 - "395 48.1897_202.5
+"
+0.0097 - "617 61.5631_189.643
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/118.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/118.bmp 
 0.1180 - "1178 90_196.071
 "
@@ -2553,6 +3270,11 @@ nohup: 忽略输入
 "
 0.0357 - "1067 84.535_202.5
 "
+0.0277 - "1010 81.7868_192.857
+"
+0.0265 - "1011 81.7868_199.286
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/119.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/119.bmp 
 0.0524 - "1530 106.602_298.929
 "
@@ -2574,6 +3296,11 @@ nohup: 忽略输入
 "
 0.0316 - "1362 98.2132_295.714
 "
+0.0281 - "1473 103.774_289.286
+"
+0.0252 - "1641 112.393_292.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/120.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/120.bmp 
 0.0810 - "1478 103.774_321.429
 "
@@ -2595,6 +3322,11 @@ nohup: 忽略输入
 "
 0.0354 - "1589 109.471_315
 "
+0.0309 - "1645 112.393_318.214
+"
+0.0270 - "1646 112.393_324.643
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/121.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/121.bmp 
 0.1464 - "1201 90_343.929
 "
@@ -2616,6 +3348,11 @@ nohup: 忽略输入
 "
 0.0415 - "1146 87.2706_347.143
 "
+0.0378 - "1256 92.7294_334.286
+"
+0.0350 - "1312 95.465_337.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/122.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/122.bmp 
 0.1418 - "1294 95.465_221.786
 "
@@ -2637,6 +3374,11 @@ nohup: 忽略输入
 "
 0.0306 - "1407 100.981_228.214
 "
+0.0295 - "1240 92.7294_231.429
+"
+0.0224 - "1463 103.774_225
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/123.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/123.bmp 
 0.0461 - "985 81.7868_32.1429
 "
@@ -2658,6 +3400,11 @@ nohup: 忽略输入
 "
 0.0322 - "928 79.0194_28.9286
 "
+0.0306 - "1040 84.535_28.9286
+"
+0.0293 - "874 76.2259_38.5714
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/124.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/124.bmp 
 0.0231 - "397 48.1897_215.357
 "
@@ -2679,6 +3426,11 @@ nohup: 忽略输入
 "
 0.0164 - "510 55.1501_221.786
 "
+0.0154 - "343 44.5544_218.077
+"
+0.0146 - "344 44.5544_225
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/125.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/125.bmp 
 0.0537 - "1301 95.465_266.786
 "
@@ -2700,6 +3452,11 @@ nohup: 忽略输入
 "
 0.0335 - "1133 87.2706_263.571
 "
+0.0309 - "1302 95.465_273.214
+"
+0.0261 - "1413 100.981_266.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/126.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/126.bmp 
 0.1083 - "1130 87.2706_244.286
 "
@@ -2721,6 +3478,11 @@ nohup: 忽略输入
 "
 0.0390 - "1018 81.7868_244.286
 "
+0.0288 - "1297 95.465_241.071
+"
+0.0287 - "1129 87.2706_237.857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/127.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/127.bmp 
 0.0474 - "1571 109.471_199.286
 "
@@ -2742,6 +3504,11 @@ nohup: 忽略输入
 "
 0.0367 - "1570 109.471_192.857
 "
+0.0364 - "1460 103.774_205.714
+"
+0.0343 - "1402 100.981_196.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/128.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/128.bmp 
 0.0642 - "697 64.6231_340.714
 "
@@ -2763,6 +3530,11 @@ nohup: 忽略输入
 "
 0.0304 - "751 67.6073_331.071
 "
+0.0299 - "808 70.5288_334.286
+"
+0.0291 - "810 70.5288_347.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/129.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/129.bmp 
 0.0723 - "1759 118.437_331.071
 "
@@ -2784,6 +3556,11 @@ nohup: 忽略输入
 "
 0.0327 - "1758 118.437_324.643
 "
+0.0304 - "1817 121.588_340.714
+"
+0.0284 - "1648 112.393_337.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/130.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/130.bmp 
 0.1406 - "1237 92.7294_212.143
 "
@@ -2805,6 +3582,11 @@ nohup: 忽略输入
 "
 0.0348 - "1236 92.7294_205.714
 "
+0.0347 - "1350 98.2132_218.571
+"
+0.0339 - "1348 98.2132_205.714
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/131.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/131.bmp 
 0.0210 - "1404 100.981_208.929
 "
@@ -2826,6 +3608,11 @@ nohup: 忽略输入
 "
 0.0145 - "1292 95.465_208.929
 "
+0.0137 - "1462 103.774_218.571
+"
+0.0137 - "1237 92.7294_212.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/132.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/132.bmp 
 0.0907 - "1478 103.774_321.429
 "
@@ -2847,6 +3634,11 @@ nohup: 忽略输入
 "
 0.0343 - "1532 106.602_311.786
 "
+0.0325 - "1591 109.471_327.857
+"
+0.0324 - "1422 100.981_324.643
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/133.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/133.bmp 
 0.0043 - "1257 92.7294_340.714
 "
@@ -2868,6 +3660,11 @@ nohup: 忽略输入
 "
 0.0037 - "1199 90_331.071
 "
+0.0037 - "1368 98.2132_334.286
+"
+0.0036 - "1088 84.535_337.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/134.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/134.bmp 
 0.0217 - "1416 100.981_286.071
 "
@@ -2889,6 +3686,11 @@ nohup: 忽略输入
 "
 0.0167 - "1415 100.981_279.643
 "
+0.0152 - "1585 109.471_289.286
+"
+0.0146 - "1303 95.465_279.643
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/135.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/135.bmp 
 0.0718 - "2024 135.446_252.692
 "
@@ -2910,6 +3712,11 @@ nohup: 忽略输入
 "
 0.0349 - "1916 128.247_257.143
 "
+0.0346 - "2075 139.034_266.25
+"
+0.0320 - "2120 142.581_265.909
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/136.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/136.bmp 
 0.0225 - "922 76.2259_347.143
 "
@@ -2931,6 +3738,11 @@ nohup: 忽略输入
 "
 0.0171 - "923 76.2259_353.571
 "
+0.0160 - "1090 84.535_350.357
+"
+0.0156 - "921 76.2259_340.714
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/137.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/137.bmp 
 0.0661 - "1645 112.393_318.214
 "
@@ -2952,6 +3764,11 @@ nohup: 忽略输入
 "
 0.0319 - "1534 106.602_324.643
 "
+0.0318 - "1591 109.471_327.857
+"
+0.0267 - "1758 118.437_324.643
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/138.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/138.bmp 
 0.0338 - "1519 106.602_228.214
 "
@@ -2973,6 +3790,11 @@ nohup: 忽略输入
 "
 0.0257 - "1575 109.471_225
 "
+0.0232 - "1522 106.602_247.5
+"
+0.0221 - "1463 103.774_225
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/139.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/139.bmp 
 0.0314 - "1856 124.85_234.643
 "
@@ -2994,6 +3816,11 @@ nohup: 忽略输入
 "
 0.0237 - "1911 128.247_225
 "
+0.0223 - "1744 118.437_234.643
+"
+0.0209 - "1743 118.437_228.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/140.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/140.bmp 
 0.0689 - "1463 103.774_225
 "
@@ -3015,6 +3842,11 @@ nohup: 忽略输入
 "
 0.0348 - "1576 109.471_231.429
 "
+0.0297 - "1408 100.981_234.643
+"
+0.0280 - "1295 95.465_228.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/141.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/141.bmp 
 0.0600 - "1569 109.471_186.429
 "
@@ -3036,6 +3868,11 @@ nohup: 忽略输入
 "
 0.0301 - "1570 109.471_192.857
 "
+0.0289 - "1511 106.602_176.786
+"
+0.0279 - "1623 112.393_176.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/142.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/142.bmp 
 0.0354 - "939 79.0194_99.6429
 "
@@ -3057,6 +3894,11 @@ nohup: 忽略输入
 "
 0.0254 - "995 81.7868_96.4286
 "
+0.0251 - "1052 84.535_106.071
+"
+0.0243 - "941 79.0194_112.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/143.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/143.bmp 
 0.0127 - "1288 95.465_183.214
 "
@@ -3078,6 +3920,11 @@ nohup: 忽略输入
 "
 0.0083 - "1400 100.981_183.214
 "
+0.0079 - "1064 84.535_183.214
+"
+0.0076 - "1287 95.465_176.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/144.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/144.bmp 
 0.0837 - "0 3.34203_45
 "
@@ -3099,6 +3946,11 @@ nohup: 忽略输入
 "
 0.0325 - "13 10.0375_45
 "
+0.0307 - "9 6.68691_247.5
+"
+0.0298 - "7 6.68691_157.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/145.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/145.bmp 
 0.0185 - "868 76.2259_0
 "
@@ -3120,6 +3972,11 @@ nohup: 忽略输入
 "
 0.0137 - "813 73.3985_9.64286
 "
+0.0135 - "1036 84.535_3.21429
+"
+0.0134 - "866 73.3985_350.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/146.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/146.bmp 
 0.0944 - "1358 98.2132_270
 "
@@ -3141,6 +3998,11 @@ nohup: 忽略输入
 "
 0.0402 - "1526 106.602_273.214
 "
+0.0369 - "1246 92.7294_270
+"
+0.0357 - "1471 103.774_276.429
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/147.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/147.bmp 
 0.0496 - "1236 92.7294_205.714
 "
@@ -3162,6 +4024,11 @@ nohup: 忽略输入
 "
 0.0294 - "1404 100.981_208.929
 "
+0.0292 - "1347 98.2132_199.286
+"
+0.0286 - "1403 100.981_202.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/148.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/148.bmp 
 0.0330 - "1424 100.981_337.5
 "
@@ -3183,6 +4050,11 @@ nohup: 忽略输入
 "
 0.0264 - "1311 95.465_331.071
 "
+0.0260 - "1481 103.774_340.714
+"
+0.0258 - "1535 106.602_331.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/149.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/149.bmp 
 0.0223 - "2132 146.092_4.5
 "
@@ -3204,6 +4076,11 @@ nohup: 忽略输入
 "
 0.0096 - "2130 142.581_347.727
 "
+0.0095 - "2239 153.019_354.375
+"
+0.0094 - "1899 128.247_147.857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/150.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/150.bmp 
 0.0787 - "1746 118.437_247.5
 "
@@ -3225,6 +4102,11 @@ nohup: 忽略输入
 "
 0.0341 - "1745 118.437_241.071
 "
+0.0318 - "1634 112.393_247.5
+"
+0.0301 - "1914 128.247_244.286
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/151.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/151.bmp 
 0.0575 - "1649 112.393_343.929
 "
@@ -3246,6 +4128,11 @@ nohup: 忽略输入
 "
 0.0272 - "1538 106.602_350.357
 "
+0.0248 - "1482 103.774_347.143
+"
+0.0231 - "1760 118.437_337.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/152.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/152.bmp 
 0.2143 - "1519 106.602_228.214
 "
@@ -3267,6 +4154,11 @@ nohup: 忽略输入
 "
 0.0258 - "1520 106.602_234.643
 "
+0.0170 - "1630 112.393_221.786
+"
+0.0157 - "1462 103.774_218.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/153.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/153.bmp 
 0.0526 - "1241 92.7294_237.857
 "
@@ -3288,6 +4180,11 @@ nohup: 忽略输入
 "
 0.0312 - "1130 87.2706_244.286
 "
+0.0289 - "1409 100.981_241.071
+"
+0.0262 - "1354 98.2132_244.286
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/154.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/154.bmp 
 0.0726 - "964 79.0194_260.357
 "
@@ -3309,6 +4206,11 @@ nohup: 忽略输入
 "
 0.0437 - "797 70.5288_263.571
 "
+0.0415 - "853 73.3985_266.786
+"
+0.0399 - "851 73.3985_253.929
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/155.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/155.bmp 
 0.1201 - "1132 87.2706_257.143
 "
@@ -3330,6 +4232,11 @@ nohup: 忽略输入
 "
 0.0340 - "1245 92.7294_263.571
 "
+0.0236 - "1243 92.7294_250.714
+"
+0.0234 - "1019 81.7868_250.714
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/156.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/156.bmp 
 0.0608 - "621 61.5631_215.357
 "
@@ -3351,6 +4258,11 @@ nohup: 忽略输入
 "
 0.0281 - "733 67.6073_215.357
 "
+0.0267 - "454 51.7534_218.571
+"
+0.0259 - "511 55.1501_228.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/157.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/157.bmp 
 0.1559 - "1694 115.377_270
 "
@@ -3372,6 +4284,11 @@ nohup: 忽略输入
 "
 0.0368 - "1525 106.602_266.786
 "
+0.0330 - "1583 109.471_276.429
+"
+0.0329 - "1693 115.377_263.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/158.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/158.bmp 
 0.0352 - "1683 115.377_199.286
 "
@@ -3393,6 +4310,11 @@ nohup: 忽略输入
 "
 0.0259 - "1684 115.377_205.714
 "
+0.0251 - "1739 118.437_202.5
+"
+0.0228 - "1624 112.393_183.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/159.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/159.bmp 
 0.0979 - "1852 124.85_208.929
 "
@@ -3414,6 +4336,11 @@ nohup: 忽略输入
 "
 0.0374 - "1854 124.85_221.786
 "
+0.0364 - "1796 121.588_205.714
+"
+0.0302 - "1685 115.377_212.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/160.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/160.bmp 
 0.0925 - "1978 131.81_298.929
 "
@@ -3435,6 +4362,11 @@ nohup: 忽略输入
 "
 0.0375 - "2031 135.446_301.154
 "
+0.0368 - "2079 139.034_296.25
+"
+0.0286 - "2029 135.446_287.308
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/161.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/161.bmp 
 0.0099 - "508 55.1501_208.929
 "
@@ -3456,6 +4388,11 @@ nohup: 忽略输入
 "
 0.0069 - "621 61.5631_215.357
 "
+0.0069 - "341 44.5544_204.231
+"
+0.0068 - "340 44.5544_197.308
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/162.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/162.bmp 
 0.0715 - "1512 106.602_183.214
 "
@@ -3477,6 +4414,11 @@ nohup: 忽略输入
 "
 0.0357 - "1344 98.2132_180
 "
+0.0336 - "1624 112.393_183.214
+"
+0.0321 - "1401 100.981_189.643
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/163.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/163.bmp 
 0.0898 - "1131 87.2706_250.714
 "
@@ -3498,6 +4440,11 @@ nohup: 忽略输入
 "
 0.0380 - "1186 90_247.5
 "
+0.0365 - "1243 92.7294_250.714
+"
+0.0330 - "1133 87.2706_263.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/164.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/164.bmp 
 0.1380 - "1133 87.2706_263.571
 "
@@ -3519,6 +4466,11 @@ nohup: 忽略输入
 "
 0.0348 - "1132 87.2706_257.143
 "
+0.0306 - "1021 81.7868_263.571
+"
+0.0243 - "1190 90_273.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/165.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/165.bmp 
 0.0326 - "509 55.1501_215.357
 "
@@ -3540,6 +4492,11 @@ nohup: 忽略输入
 "
 0.0201 - "566 58.4119_218.571
 "
+0.0200 - "510 55.1501_221.786
+"
+0.0183 - "398 48.1897_221.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/166.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/166.bmp 
 0.0869 - "1632 112.393_234.643
 "
@@ -3561,6 +4518,11 @@ nohup: 忽略输入
 "
 0.0347 - "1744 118.437_234.643
 "
+0.0291 - "1575 109.471_225
+"
+0.0271 - "1521 106.602_241.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/167.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/167.bmp 
 0.1491 - "1868 124.85_311.786
 "
@@ -3582,6 +4544,11 @@ nohup: 忽略输入
 "
 0.0296 - "1756 118.437_311.786
 "
+0.0241 - "2032 135.446_308.077
+"
+0.0221 - "1923 128.247_302.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/168.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/168.bmp 
 0.0188 - "1696 115.377_282.857
 "
@@ -3603,6 +4570,11 @@ nohup: 忽略输入
 "
 0.0147 - "1583 109.471_276.429
 "
+0.0141 - "1697 115.377_289.286
+"
+0.0141 - "1640 112.393_286.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/169.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/169.bmp 
 0.0436 - "1083 84.535_305.357
 "
@@ -3624,6 +4596,11 @@ nohup: 忽略输入
 "
 0.0271 - "1082 84.535_298.929
 "
+0.0246 - "1141 87.2706_315
+"
+0.0235 - "915 76.2259_302.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/170.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/170.bmp 
 0.0787 - "1519 106.602_228.214
 "
@@ -3645,6 +4622,11 @@ nohup: 忽略输入
 "
 0.0382 - "1632 112.393_234.643
 "
+0.0323 - "1518 106.602_221.786
+"
+0.0290 - "1688 115.377_231.429
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/171.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/171.bmp 
 0.0589 - "1634 112.393_247.5
 "
@@ -3666,6 +4648,11 @@ nohup: 忽略输入
 "
 0.0312 - "1691 115.377_250.714
 "
+0.0297 - "1354 98.2132_244.286
+"
+0.0273 - "1410 100.981_247.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/172.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/172.bmp 
 0.0980 - "1067 84.535_202.5
 "
@@ -3687,6 +4674,11 @@ nohup: 忽略输入
 "
 0.0402 - "1068 84.535_208.929
 "
+0.0377 - "955 79.0194_202.5
+"
+0.0289 - "1122 87.2706_192.857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/173.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/173.bmp 
 0.1231 - "903 76.2259_225
 "
@@ -3708,6 +4700,11 @@ nohup: 忽略输入
 "
 0.0362 - "957 79.0194_215.357
 "
+0.0312 - "1070 84.535_221.786
+"
+0.0282 - "791 70.5288_225
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/174.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/174.bmp 
 0.1194 - "903 76.2259_225
 "
@@ -3729,6 +4726,11 @@ nohup: 忽略输入
 "
 0.0296 - "904 76.2259_231.429
 "
+0.0289 - "845 73.3985_215.357
+"
+0.0280 - "1070 84.535_221.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/175.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/175.bmp 
 0.1072 - "958 79.0194_221.786
 "
@@ -3750,6 +4752,11 @@ nohup: 忽略输入
 "
 0.0318 - "847 73.3985_228.214
 "
+0.0279 - "1069 84.535_215.357
+"
+0.0262 - "845 73.3985_215.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/176.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/176.bmp 
 0.1234 - "847 73.3985_228.214
 "
@@ -3771,6 +4778,11 @@ nohup: 忽略输入
 "
 0.0338 - "905 76.2259_237.857
 "
+0.0298 - "1016 81.7868_231.429
+"
+0.0252 - "793 70.5288_237.857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/177.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/177.bmp 
 0.0972 - "257 37.4186_306.818
 "
@@ -3792,6 +4804,11 @@ nohup: 忽略输入
 "
 0.0298 - "255 37.4186_290.455
 "
+0.0297 - "354 44.5544_294.231
+"
+0.0274 - "305 40.9657_311.25
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/178.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/178.bmp 
 0.0969 - "1477 103.774_315
 "
@@ -3813,6 +4830,11 @@ nohup: 忽略输入
 "
 0.0314 - "1366 98.2132_321.429
 "
+0.0309 - "1590 109.471_321.429
+"
+0.0306 - "1422 100.981_324.643
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/179.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/179.bmp 
 0.0449 - "1594 109.471_347.143
 "
@@ -3834,6 +4856,11 @@ nohup: 忽略输入
 "
 0.0262 - "1426 100.981_350.357
 "
+0.0258 - "1483 103.774_353.571
+"
+0.0243 - "1425 100.981_343.929
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/180.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/180.bmp 
 0.0861 - "1131 87.2706_250.714
 "
@@ -3855,6 +4882,11 @@ nohup: 忽略输入
 "
 0.0311 - "1073 84.535_241.071
 "
+0.0275 - "1188 90_260.357
+"
+0.0256 - "1018 81.7868_244.286
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/181.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/181.bmp 
 0.1062 - "1189 90_266.786
 "
@@ -3876,6 +4908,11 @@ nohup: 忽略输入
 "
 0.0328 - "1132 87.2706_257.143
 "
+0.0315 - "1190 90_273.214
+"
+0.0288 - "1300 95.465_260.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/182.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/182.bmp 
 0.0804 - "1535 106.602_331.071
 "
@@ -3897,6 +4934,11 @@ nohup: 忽略输入
 "
 0.0364 - "1534 106.602_324.643
 "
+0.0325 - "1367 98.2132_327.857
+"
+0.0269 - "1648 112.393_337.5
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/183.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/183.bmp 
 0.1125 - "967 79.0194_279.643
 "
@@ -3918,6 +4960,11 @@ nohup: 忽略输入
 "
 0.0415 - "910 76.2259_270
 "
+0.0371 - "854 73.3985_273.214
+"
+0.0368 - "1078 84.535_273.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/184.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/184.bmp 
 0.0043 - "56 16.7676_297
 "
@@ -3939,6 +4986,11 @@ nohup: 忽略输入
 "
 0.0035 - "81 20.1531_322.5
 "
+0.0035 - "21 10.0375_285
+"
+0.0035 - "36 13.3967_281.25
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/185.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/185.bmp 
 0.0578 - "1086 84.535_324.643
 "
@@ -3960,6 +5012,11 @@ nohup: 忽略输入
 "
 0.0370 - "1085 84.535_318.214
 "
+0.0294 - "1087 84.535_331.071
+"
+0.0261 - "1255 92.7294_327.857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/186.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/186.bmp 
 0.0477 - "1377 100.981_35.3571
 "
@@ -3981,6 +5038,11 @@ nohup: 忽略输入
 "
 0.0284 - "1432 103.774_25.7143
 "
+0.0280 - "1488 106.602_28.9286
+"
+0.0279 - "1376 100.981_28.9286
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/187.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/187.bmp 
 0.0238 - "1524 106.602_260.357
 "
@@ -4002,6 +5064,11 @@ nohup: 忽略输入
 "
 0.0167 - "1525 106.602_266.786
 "
+0.0167 - "1467 103.774_250.714
+"
+0.0147 - "1635 112.393_253.929
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/188.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/188.bmp 
 0.0177 - "409 48.1897_292.5
 "
@@ -4023,6 +5090,11 @@ nohup: 忽略输入
 "
 0.0113 - "522 55.1501_298.929
 "
+0.0112 - "297 40.9657_251.25
+"
+0.0110 - "350 44.5544_266.538
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/189.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/189.bmp 
 0.0364 - "205 33.9082_229.5
 "
@@ -4044,6 +5116,11 @@ nohup: 忽略输入
 "
 0.0218 - "247 37.4186_225
 "
+0.0215 - "248 37.4186_233.182
+"
+0.0206 - "131 26.9811_219.375
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/190.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/190.bmp 
 0.0178 - "1986 131.81_350.357
 "
@@ -4065,6 +5142,11 @@ nohup: 忽略输入
 "
 0.0139 - "2037 135.446_342.692
 "
+0.0135 - "1932 131.81_3.21429
+"
+0.0133 - "2130 142.581_347.727
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/191.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/191.bmp 
 0.0773 - "1512 106.602_183.214
 "
@@ -4086,6 +5168,11 @@ nohup: 忽略输入
 "
 0.0355 - "1513 106.602_189.643
 "
+0.0337 - "1681 115.377_186.429
+"
+0.0335 - "1567 109.471_173.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/192.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/192.bmp 
 0.0258 - "1347 98.2132_199.286
 "
@@ -4107,6 +5194,11 @@ nohup: 忽略输入
 "
 0.0165 - "1179 90_202.5
 "
+0.0145 - "1458 103.774_192.857
+"
+0.0145 - "1178 90_196.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/193.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/193.bmp 
 0.0271 - "1298 95.465_247.5
 "
@@ -4128,6 +5220,11 @@ nohup: 忽略输入
 "
 0.0156 - "1241 92.7294_237.857
 "
+0.0155 - "1411 100.981_253.929
+"
+0.0144 - "1185 90_241.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/194.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/194.bmp 
 0.0337 - "1316 98.2132_0
 "
@@ -4149,6 +5246,11 @@ nohup: 忽略输入
 "
 0.0252 - "1315 95.465_356.786
 "
+0.0250 - "1261 95.465_9.64286
+"
+0.0221 - "1205 92.7294_6.42857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/195.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/195.bmp 
 0.0635 - "1031 81.7868_327.857
 "
@@ -4170,6 +5272,11 @@ nohup: 忽略输入
 "
 0.0315 - "918 76.2259_321.429
 "
+0.0285 - "920 76.2259_334.286
+"
+0.0274 - "863 73.3985_331.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/196.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/196.bmp 
 0.1937 - "1260 95.465_3.21429
 "
@@ -4191,6 +5298,11 @@ nohup: 忽略输入
 "
 0.0265 - "1261 95.465_9.64286
 "
+0.0252 - "1428 103.774_0
+"
+0.0186 - "1203 90_356.786
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/197.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/197.bmp 
 0.1540 - "951 79.0194_176.786
 "
@@ -4212,6 +5324,11 @@ nohup: 忽略输入
 "
 0.0289 - "952 79.0194_183.214
 "
+0.0282 - "839 73.3985_176.786
+"
+0.0280 - "894 76.2259_167.143
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/198.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/198.bmp 
 0.1087 - "1008 81.7868_180
 "
@@ -4233,6 +5350,11 @@ nohup: 忽略输入
 "
 0.0377 - "950 79.0194_170.357
 "
+0.0314 - "1009 81.7868_186.429
+"
+0.0251 - "840 73.3985_183.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/199.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/199.bmp 
 0.0040 - "480 55.1501_28.9286
 "
@@ -4254,6 +5376,11 @@ nohup: 忽略输入
 "
 0.0037 - "1233 92.7294_186.429
 "
+0.0037 - "1458 103.774_192.857
+"
+0.0037 - "423 51.7534_19.2857
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/200.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/200.bmp 
 0.0484 - "1702 115.377_321.429
 "
@@ -4275,6 +5402,11 @@ nohup: 忽略输入
 "
 0.0279 - "1758 118.437_324.643
 "
+0.0274 - "1590 109.471_321.429
+"
+0.0250 - "1926 128.247_321.429
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/201.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/201.bmp 
 0.1082 - "1628 112.393_208.929
 "
@@ -4296,6 +5428,11 @@ nohup: 忽略输入
 "
 0.0435 - "1572 109.471_205.714
 "
+0.0433 - "1686 115.377_218.571
+"
+0.0327 - "1517 106.602_215.357
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/202.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/202.bmp 
 0.1372 - "1573 109.471_212.143
 "
@@ -4317,6 +5454,11 @@ nohup: 忽略输入
 "
 0.0373 - "1686 115.377_218.571
 "
+0.0312 - "1741 118.437_215.357
+"
+0.0227 - "1462 103.774_218.571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/203.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/203.bmp 
 0.0397 - "1271 95.465_73.9286
 "
@@ -4338,6 +5480,11 @@ nohup: 忽略输入
 "
 0.0278 - "1160 90_80.3571
 "
+0.0275 - "1272 95.465_80.3571
+"
+0.0262 - "1048 84.535_80.3571
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/204.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/204.bmp 
 0.1452 - "1238 92.7294_218.571
 "
@@ -4359,6 +5506,11 @@ nohup: 忽略输入
 "
 0.0369 - "1126 87.2706_218.571
 "
+0.0248 - "1127 87.2706_225
+"
+0.0213 - "1295 95.465_228.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/205.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/205.bmp 
 0.1452 - "1238 92.7294_218.571
 "
@@ -4380,6 +5532,11 @@ nohup: 忽略输入
 "
 0.0369 - "1126 87.2706_218.571
 "
+0.0248 - "1127 87.2706_225
+"
+0.0213 - "1295 95.465_228.214
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/206.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/206.bmp 
 0.0593 - "1354 98.2132_244.286
 "
@@ -4401,6 +5558,11 @@ nohup: 忽略输入
 "
 0.0339 - "1465 103.774_237.857
 "
+0.0326 - "1467 103.774_250.714
+"
+0.0302 - "1521 106.602_241.071
+"
+---------- Prediction for /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/207.bmp ----------
 /home/cad/disk/linux/RenderForCNN-master/data/head/img-pca/207.bmp 
 0.0394 - "1126 87.2706_218.571
 "
@@ -4421,6 +5583,10 @@ nohup: 忽略输入
 0.0287 - "1127 87.2706_225
 "
 0.0267 - "1239 92.7294_225
+"
+0.0260 - "1350 98.2132_218.571
+"
+0.0255 - "1069 84.535_215.357
 "
 Good Classification
 152 0.2143
@@ -4631,2372 +5797,2372 @@ Good Classification
 184 0.0043
 199 0.0040
 Select good Viewpoint:
-1525 1.0822
-1294 1.0018
-1581 0.9477
-1301 0.9056
-1469 0.8958
-1413 0.8754
-1238 0.8673
-1358 0.8462
-1189 0.8447
-1463 0.8348
-1351 0.8001
-1239 0.7976
-1406 0.7951
-1350 0.7860
-1524 0.7694
-1133 0.7654
-1245 0.7510
-1519 0.7431
-1470 0.7260
-1246 0.6936
-1293 0.6802
-1234 0.6711
-1518 0.6531
-1347 0.6485
-1575 0.6274
-1182 0.6249
-1348 0.6235
-1291 0.6229
-1357 0.6224
-1414 0.6206
-1582 0.6160
-1403 0.5899
-1188 0.5854
-1290 0.5704
-1008 0.5690
-1177 0.5686
-1235 0.5603
-1178 0.5592
-1349 0.5581
-1462 0.5580
-951 0.5566
-1302 0.5515
-1404 0.5510
-1289 0.5508
-1292 0.5470
-1637 0.5459
-1573 0.5449
-1407 0.5412
-1636 0.5328
-1134 0.5260
-1295 0.5196
-1461 0.5141
-1237 0.5125
-1405 0.5104
-1132 0.5088
-1233 0.5068
-1076 0.5044
-1464 0.5002
-1236 0.4977
-1402 0.4910
-1131 0.4909
-1516 0.4870
-1460 0.4851
-1580 0.4782
-1631 0.4777
-1122 0.4773
-1517 0.4747
-1077 0.4727
-1346 0.4726
-1074 0.4719
-1459 0.4619
-1574 0.4609
-1130 0.4608
-1412 0.4605
-1181 0.4589
-1629 0.4583
-1179 0.4564
-1526 0.4451
-1576 0.4242
-903 0.4161
-1007 0.4153
-1063 0.4030
-1468 0.3999
-1688 0.3991
-1628 0.3958
-1425 0.3950
-1533 0.3923
-1300 0.3895
-1477 0.3852
-1515 0.3850
-1073 0.3813
-1482 0.3813
-1421 0.3798
-1121 0.3793
-1065 0.3789
-1123 0.3784
-1630 0.3781
-1187 0.3781
-1642 0.3772
-1075 0.3738
-1586 0.3734
-1537 0.3709
-952 0.3706
-1064 0.3697
-1478 0.3696
-1186 0.3647
-1408 0.3637
-1465 0.3607
-1009 0.3606
-1532 0.3592
-1018 0.3591
-1176 0.3589
-1180 0.3571
-1190 0.3568
-1288 0.3563
-1520 0.3505
-1244 0.3469
-1352 0.3423
-1345 0.3406
-1366 0.3388
-1572 0.3379
-1589 0.3377
-1590 0.3370
-1687 0.3360
-1685 0.3356
-1588 0.3352
-1534 0.3348
-1369 0.3325
-1126 0.3304
-1021 0.3303
-1481 0.3294
-1183 0.3289
-1641 0.3250
-1420 0.3248
-1693 0.3231
-1124 0.3212
-1257 0.3195
-958 0.3191
-1587 0.3185
-1185 0.3168
-1201 0.3168
-1521 0.3125
-1632 0.3108
-1019 0.3086
-1458 0.3074
-1743 0.3061
-1365 0.3053
-1359 0.3028
-896 0.3025
-1530 0.3023
-1593 0.3011
-1066 0.3004
-1643 0.2993
-1409 0.2981
-1476 0.2959
-1531 0.2958
-1145 0.2942
-959 0.2937
-847 0.2936
-1523 0.2927
-1401 0.2907
-1512 0.2906
-1020 0.2899
-1514 0.2899
-1240 0.2877
-1242 0.2871
-1686 0.2865
-1313 0.2847
-1120 0.2846
-1400 0.2838
-1698 0.2835
-1645 0.2829
-1422 0.2822
-1799 0.2812
-1127 0.2810
-1129 0.2791
-1353 0.2768
-1471 0.2755
-1741 0.2747
-1577 0.2737
-1594 0.2732
-1536 0.2730
-1241 0.2715
-1457 0.2713
-1243 0.2698
-1200 0.2693
-962 0.2685
-1260 0.2681
-961 0.2659
-1010 0.2652
-904 0.2648
-1644 0.2638
-1649 0.2638
-1855 0.2630
-1312 0.2627
-1370 0.2622
-1466 0.2616
-1232 0.2613
-1309 0.2604
-895 0.2592
-1699 0.2576
-1424 0.2571
-1635 0.2571
-1479 0.2568
-1356 0.2558
-902 0.2557
-846 0.2548
-953 0.2547
-1017 0.2535
-1014 0.2494
-1513 0.2484
-1247 0.2483
-1297 0.2474
-1700 0.2467
-1694 0.2464
-1456 0.2463
-1638 0.2457
-1579 0.2452
-1578 0.2442
-897 0.2440
-1067 0.2427
-1296 0.2402
-1591 0.2373
-1854 0.2365
-1344 0.2364
-1648 0.2351
-1569 0.2343
-1184 0.2325
-1924 0.2323
-11 0.2312
-1692 0.2310
-950 0.2296
-1571 0.2296
-1853 0.2296
-1797 0.2284
-1426 0.2279
-1868 0.2276
-1592 0.2274
-1078 0.2266
-1015 0.2262
-1070 0.2252
-1089 0.2247
-1800 0.2246
-1522 0.2245
-1475 0.2241
-3 0.2228
-1256 0.2227
-1535 0.2222
-1354 0.2215
-1125 0.2211
-964 0.2206
-963 0.2182
-1742 0.2181
-905 0.2177
-1411 0.2176
-1467 0.2169
-1633 0.2164
-1529 0.2149
-1647 0.2142
-1583 0.2140
-1022 0.2138
-1364 0.2136
-1740 0.2129
-1634 0.2124
-1538 0.2104
-1568 0.2101
-1980 0.2100
-1646 0.2098
-1480 0.2077
-1298 0.2077
-1702 0.2059
-1474 0.2053
-960 0.2028
-1624 0.2025
-1146 0.2019
-1410 0.2016
-1368 0.2011
-1798 0.2005
-1299 0.2001
-1705 0.2000
-1072 0.1997
-1925 0.1990
-1627 0.1982
-1175 0.1975
-1704 0.1967
-1258 0.1967
-1852 0.1960
-1419 0.1945
-1701 0.1942
-1308 0.1937
-0 0.1936
-1570 0.1932
-1316 0.1928
-1423 0.1927
-1684 0.1914
-1069 0.1913
-1287 0.1901
-1755 0.1889
-1691 0.1884
-848 0.1876
-1689 0.1875
-1910 0.1872
-1399 0.1859
-906 0.1855
-1204 0.1846
-1690 0.1843
-1756 0.1835
-2032 0.1825
-1812 0.1812
-1909 0.1807
-1911 0.1802
-1310 0.1796
-1511 0.1785
-1813 0.1779
-1355 0.1779
-10 0.1776
-1128 0.1768
-957 0.1768
-1088 0.1759
-1979 0.1755
-1760 0.1751
-1144 0.1734
-1418 0.1731
-1033 0.1723
-1744 0.1697
-1311 0.1694
-1254 0.1688
-1367 0.1687
-2 0.1686
-1068 0.1677
-908 0.1670
-2081 0.1663
-1011 0.1651
-1119 0.1644
-840 0.1642
-1706 0.1636
-965 0.1628
-1703 0.1624
-1135 0.1599
-907 0.1591
-1965 0.1591
-1585 0.1591
-2125 0.1577
-1205 0.1564
-1746 0.1559
-1754 0.1555
-1867 0.1555
-1415 0.1547
-1626 0.1543
-1062 0.1542
-257 0.1541
-2080 0.1536
-1016 0.1535
-1071 0.1532
-1253 0.1526
-1978 0.1524
-1317 0.1516
-1625 0.1512
-792 0.1512
-1923 0.1510
-1199 0.1497
-849 0.1475
-1023 0.1474
-4 0.1471
-1759 0.1461
-909 0.1453
-1697 0.1444
-2031 0.1442
-1650 0.1439
-1303 0.1431
-791 0.1429
-22 0.1423
-1314 0.1414
-1753 0.1413
-1757 0.1407
-1231 0.1402
-1363 0.1399
-1252 0.1394
-1315 0.1388
-1372 0.1387
-1343 0.1384
-841 0.1373
-1483 0.1370
-258 0.1366
-851 0.1364
-1013 0.1361
-1747 0.1359
-898 0.1354
-1749 0.1342
-2033 0.1338
-1761 0.1334
-1012 0.1334
-852 0.1331
-1 0.1325
-1034 0.1323
-1866 0.1317
-1307 0.1316
-1683 0.1315
-1912 0.1313
-1748 0.1302
-1869 0.1296
-21 0.1287
-839 0.1280
-1148 0.1276
-1255 0.1267
-1922 0.1261
-966 0.1254
-1455 0.1249
-1681 0.1248
-977 0.1248
-1417 0.1246
-1086 0.1240
-1745 0.1238
-259 0.1232
-1527 0.1229
-256 0.1229
-1811 0.1221
-2126 0.1220
-1031 0.1219
-215 0.1214
-1758 0.1214
-974 0.1211
-9 0.1211
-1796 0.1208
-1371 0.1207
-954 0.1196
-1143 0.1190
-1473 0.1188
-214 0.1177
-1198 0.1175
-303 0.1174
-967 0.1174
-1623 0.1165
-304 0.1159
-1087 0.1157
-1680 0.1156
-1427 0.1149
-1816 0.1148
-1528 0.1138
-1030 0.1130
-1595 0.1125
-796 0.1117
-23 0.1117
-5 0.1117
-1966 0.1116
-1202 0.1112
-1032 0.1106
-1810 0.1105
-1803 0.1103
-850 0.1097
-1817 0.1095
-1802 0.1090
-976 0.1087
-845 0.1085
-306 0.1084
-1191 0.1077
-1196 0.1071
-216 0.1067
-1195 0.1061
-2124 0.1060
-2079 0.1059
-1682 0.1058
-1142 0.1058
-1856 0.1056
-921 0.1056
-1090 0.1054
-790 0.1051
-1640 0.1049
-1362 0.1046
-205 0.1045
-1981 0.1037
-20 0.1034
-1197 0.1031
-1092 0.1026
-213 0.1022
-1203 0.1017
-2030 0.1013
-911 0.1011
-1006 0.1006
-1306 0.1005
-955 0.1001
-2166 0.0997
-1814 0.0994
-307 0.0987
-1286 0.0986
-1639 0.0981
-166 0.0970
-1251 0.0963
-294 0.0953
-1259 0.0952
-305 0.0949
-901 0.0948
-975 0.0944
-1428 0.0941
-910 0.0939
-918 0.0938
-1815 0.0936
-509 0.0936
-1739 0.0932
-793 0.0927
-2165 0.0922
-12 0.0913
-132 0.0912
-1567 0.0910
-956 0.0904
-1472 0.0900
-1584 0.0898
-1174 0.0896
-1964 0.0893
-8 0.0890
-1695 0.0888
-1801 0.0884
-694 0.0883
-1865 0.0878
-2082 0.0878
-973 0.0875
-1858 0.0874
-1804 0.0870
-1967 0.0870
-919 0.0869
-1079 0.0869
-1416 0.0864
-37 0.0862
-1085 0.0857
-980 0.0854
-786 0.0854
-204 0.0853
-1977 0.0851
-621 0.0848
-637 0.0845
-453 0.0844
-924 0.0844
-566 0.0844
-1738 0.0840
-1398 0.0834
-1360 0.0834
-165 0.0833
-175 0.0833
-508 0.0832
-260 0.0828
-1261 0.0826
-1036 0.0826
-794 0.0826
-785 0.0823
-523 0.0819
-131 0.0818
-1736 0.0812
-358 0.0811
-565 0.0810
-1139 0.0810
-1140 0.0809
-580 0.0809
-1194 0.0808
-176 0.0807
-869 0.0804
-355 0.0804
-397 0.0800
-6 0.0799
-1091 0.0797
-636 0.0797
-1539 0.0796
-1809 0.0795
-454 0.0794
-1750 0.0794
-735 0.0794
-894 0.0792
-345 0.0789
-638 0.0784
-582 0.0782
-248 0.0781
-853 0.0780
-510 0.0780
-1147 0.0780
-912 0.0778
-36 0.0777
-13 0.0773
-1926 0.0772
-734 0.0770
-247 0.0770
-38 0.0766
-579 0.0764
-677 0.0763
-346 0.0763
-838 0.0759
-1141 0.0758
-797 0.0754
-635 0.0754
-1871 0.0753
-795 0.0749
-399 0.0749
-101 0.0747
-862 0.0747
-167 0.0746
-693 0.0744
-842 0.0742
-750 0.0742
-740 0.0742
-1908 0.0740
-981 0.0738
-581 0.0736
-1093 0.0732
-922 0.0727
-1737 0.0726
-2019 0.0726
-1872 0.0724
-622 0.0722
-899 0.0721
-567 0.0721
-620 0.0717
-19 0.0717
-341 0.0716
-1361 0.0714
-920 0.0714
-452 0.0713
-295 0.0712
-396 0.0712
-1024 0.0709
-1035 0.0706
-35 0.0703
-398 0.0703
-455 0.0700
-354 0.0700
-868 0.0696
-524 0.0695
-357 0.0694
-401 0.0691
-1859 0.0691
-400 0.0691
-102 0.0690
-749 0.0690
-7 0.0689
-564 0.0689
-729 0.0688
-925 0.0687
-1305 0.0687
-736 0.0686
-1250 0.0686
-806 0.0685
-467 0.0683
-1762 0.0681
-807 0.0678
-1870 0.0674
-356 0.0673
-692 0.0673
-678 0.0672
-344 0.0671
-812 0.0671
-75 0.0669
-861 0.0669
-978 0.0666
-1083 0.0666
-900 0.0665
-290 0.0665
-1138 0.0663
-1805 0.0663
-1857 0.0661
-695 0.0661
-733 0.0659
-1373 0.0658
-634 0.0656
-511 0.0655
-813 0.0655
-784 0.0654
-347 0.0654
-746 0.0654
-676 0.0653
-1915 0.0653
-1149 0.0651
-865 0.0648
-2018 0.0648
-1707 0.0648
-730 0.0647
-844 0.0641
-732 0.0640
-679 0.0637
-411 0.0637
-456 0.0636
-2034 0.0634
-359 0.0632
-789 0.0630
-308 0.0630
-1752 0.0629
-525 0.0629
-522 0.0628
-1029 0.0628
-691 0.0627
-395 0.0627
-513 0.0627
-1696 0.0627
-1429 0.0627
-342 0.0625
-1510 0.0625
-206 0.0624
-468 0.0624
-340 0.0622
-14 0.0622
-244 0.0621
-979 0.0621
-1342 0.0620
-864 0.0619
-1248 0.0617
-870 0.0617
-1971 0.0616
-53 0.0615
-1082 0.0614
-675 0.0614
-619 0.0614
-293 0.0611
-1193 0.0610
-296 0.0610
-457 0.0609
-255 0.0608
-1377 0.0607
-34 0.0606
-1818 0.0605
-748 0.0605
-2024 0.0603
-245 0.0602
-312 0.0599
-731 0.0595
-291 0.0595
-343 0.0593
-1851 0.0592
-863 0.0589
-174 0.0588
-130 0.0587
-1084 0.0587
-363 0.0585
-243 0.0583
-803 0.0582
-100 0.0582
-1271 0.0582
-526 0.0581
-968 0.0581
-249 0.0580
-805 0.0580
-1794 0.0578
-133 0.0577
-747 0.0577
-246 0.0576
-164 0.0576
-1970 0.0575
-202 0.0574
-751 0.0573
-674 0.0571
-1136 0.0571
-412 0.0570
-1230 0.0569
-410 0.0567
-1913 0.0559
-1914 0.0559
-507 0.0557
-690 0.0556
-787 0.0556
-203 0.0554
-1104 0.0553
-414 0.0551
-52 0.0551
-292 0.0551
-788 0.0550
-1806 0.0550
-1793 0.0548
-583 0.0547
-413 0.0546
-858 0.0545
-1921 0.0544
-917 0.0544
-1103 0.0543
-74 0.0541
-1873 0.0541
-458 0.0540
-1318 0.0539
-1216 0.0536
-843 0.0535
-1651 0.0535
-802 0.0534
-289 0.0533
-854 0.0532
-739 0.0531
-1304 0.0530
-1028 0.0529
-1795 0.0529
-578 0.0527
-1679 0.0526
-129 0.0525
-757 0.0523
-470 0.0523
-55 0.0523
-1982 0.0522
-1735 0.0522
-1027 0.0522
-264 0.0522
-1037 0.0521
-76 0.0521
-201 0.0519
-56 0.0517
-1484 0.0517
-1159 0.0516
-569 0.0515
-409 0.0514
-512 0.0513
-364 0.0511
-866 0.0511
-1927 0.0511
-168 0.0508
-923 0.0507
-625 0.0507
-808 0.0505
-1432 0.0505
-313 0.0505
-1249 0.0505
-469 0.0503
-1433 0.0502
-1206 0.0501
-809 0.0501
-1047 0.0500
-217 0.0499
-54 0.0499
-563 0.0499
-1376 0.0496
-737 0.0496
-1264 0.0493
-2202 0.0493
-618 0.0493
-1928 0.0491
-1864 0.0490
-419 0.0490
-855 0.0489
-1215 0.0489
-1374 0.0487
-1081 0.0487
-15 0.0486
-1968 0.0485
-1320 0.0484
-1263 0.0483
-1916 0.0482
-1454 0.0482
-163 0.0482
-982 0.0480
-2025 0.0479
-1319 0.0479
-753 0.0476
-639 0.0475
-18 0.0473
-1860 0.0472
-623 0.0472
-1265 0.0471
-756 0.0471
-1434 0.0471
-2127 0.0468
-1285 0.0467
-697 0.0466
-2078 0.0465
-971 0.0463
-261 0.0463
-1118 0.0462
-2020 0.0462
-33 0.0462
-365 0.0461
-394 0.0460
-2167 0.0460
-1328 0.0460
-804 0.0459
-1375 0.0458
-810 0.0455
-752 0.0455
-867 0.0454
-1026 0.0451
-451 0.0451
-2023 0.0451
-1397 0.0450
-420 0.0448
-915 0.0448
-1262 0.0447
-2029 0.0447
-288 0.0446
-926 0.0446
-103 0.0445
-1540 0.0444
-466 0.0442
-1321 0.0441
-418 0.0441
-681 0.0440
-859 0.0440
-311 0.0440
-360 0.0440
-421 0.0439
-680 0.0436
-297 0.0435
-860 0.0435
-1137 0.0433
-1792 0.0433
-1850 0.0433
-970 0.0432
-645 0.0430
-242 0.0430
-1192 0.0429
-1751 0.0429
-2123 0.0429
-2074 0.0427
-1094 0.0426
-972 0.0425
-402 0.0425
-696 0.0424
-362 0.0423
-1160 0.0423
-302 0.0421
-415 0.0421
-339 0.0420
-700 0.0420
-673 0.0419
-2164 0.0418
-471 0.0417
-134 0.0416
-914 0.0416
-57 0.0415
-1327 0.0415
-212 0.0415
-811 0.0413
-633 0.0413
-568 0.0413
-39 0.0413
-207 0.0413
-200 0.0412
-1209 0.0411
-1622 0.0411
-1489 0.0411
-475 0.0411
-570 0.0410
-588 0.0409
-1929 0.0409
-1272 0.0409
-177 0.0408
-916 0.0407
-1048 0.0407
-1488 0.0405
-25 0.0402
-26 0.0401
-758 0.0400
-476 0.0400
-1430 0.0400
-220 0.0400
-309 0.0400
-698 0.0399
-1080 0.0399
-441 0.0398
-641 0.0398
-1849 0.0396
-506 0.0396
-521 0.0394
-1396 0.0394
-1322 0.0393
-1378 0.0393
-857 0.0393
-140 0.0392
-2073 0.0392
-913 0.0390
-250 0.0390
-949 0.0389
-745 0.0388
-1546 0.0388
-1431 0.0386
-265 0.0385
-1972 0.0385
-24 0.0384
-738 0.0384
-1341 0.0382
-783 0.0382
-2017 0.0381
-1808 0.0380
-640 0.0380
-532 0.0379
-624 0.0378
-1983 0.0377
-1963 0.0376
-1158 0.0375
-701 0.0375
-1208 0.0374
-1807 0.0373
-353 0.0372
-263 0.0371
-2083 0.0371
-644 0.0370
-1874 0.0370
-262 0.0369
-1906 0.0367
-754 0.0367
-287 0.0367
-617 0.0366
-474 0.0365
-585 0.0365
-1969 0.0364
-99 0.0364
-562 0.0364
-2069 0.0363
-814 0.0362
-682 0.0361
-1907 0.0361
-2035 0.0360
-2068 0.0358
-1763 0.0358
-728 0.0358
-77 0.0357
-1153 0.0356
-51 0.0355
-2132 0.0355
-1848 0.0354
-442 0.0354
-1207 0.0353
-16 0.0353
-1819 0.0351
-1025 0.0350
-992 0.0349
-310 0.0349
-27 0.0348
-531 0.0348
-1490 0.0345
-73 0.0344
-301 0.0343
-366 0.0343
-497 0.0343
-422 0.0343
-1210 0.0342
-969 0.0342
-684 0.0342
-348 0.0342
-1861 0.0342
-1905 0.0339
-384 0.0339
-1098 0.0339
-173 0.0339
-361 0.0338
-1150 0.0337
-527 0.0336
-403 0.0336
-17 0.0336
-1485 0.0335
-2203 0.0335
-1046 0.0334
-529 0.0334
-1984 0.0333
-241 0.0333
-417 0.0333
-1976 0.0332
-2021 0.0332
-856 0.0330
-1038 0.0329
-338 0.0328
-991 0.0328
-741 0.0327
-1097 0.0326
-755 0.0326
-584 0.0326
-1453 0.0325
-1545 0.0324
-416 0.0322
-218 0.0322
-386 0.0322
-1961 0.0322
-2086 0.0321
-385 0.0321
-450 0.0319
-1917 0.0318
-643 0.0316
-2037 0.0316
-162 0.0316
-939 0.0315
-1105 0.0314
-332 0.0312
-2130 0.0311
-1041 0.0311
-798 0.0310
-1986 0.0309
-2026 0.0309
-2131 0.0309
-1270 0.0308
-553 0.0307
-985 0.0306
-699 0.0306
-1930 0.0305
-801 0.0304
-1652 0.0302
-514 0.0302
-141 0.0302
-473 0.0302
-586 0.0302
-2087 0.0301
-331 0.0301
-528 0.0300
-1217 0.0300
-104 0.0300
-180 0.0300
-78 0.0299
-1931 0.0299
-79 0.0299
-393 0.0299
-496 0.0298
-2088 0.0298
-533 0.0296
-642 0.0296
-219 0.0296
-440 0.0295
-587 0.0295
-477 0.0294
-577 0.0294
-1985 0.0294
-472 0.0293
-1152 0.0293
-169 0.0293
-2036 0.0293
-1862 0.0293
-498 0.0292
-884 0.0292
-530 0.0292
-128 0.0291
-2201 0.0291
-2038 0.0290
-1487 0.0290
-996 0.0289
-1266 0.0289
-2075 0.0288
-2015 0.0287
-459 0.0287
-1920 0.0286
-349 0.0286
-1383 0.0285
-1962 0.0283
-1061 0.0283
-314 0.0283
-554 0.0283
-2039 0.0282
-2067 0.0281
-2016 0.0281
-689 0.0281
-1863 0.0281
-465 0.0280
-940 0.0278
-2171 0.0277
-58 0.0275
-2014 0.0275
-283 0.0275
-1541 0.0275
-408 0.0275
-199 0.0274
-253 0.0273
-1960 0.0273
-1566 0.0273
-2120 0.0272
-609 0.0272
-298 0.0272
-2064 0.0271
-282 0.0271
-589 0.0271
-986 0.0269
-2022 0.0268
-993 0.0267
-2066 0.0267
-337 0.0266
-1791 0.0266
-1596 0.0266
-2040 0.0264
-139 0.0263
-1509 0.0262
-28 0.0262
-1329 0.0262
-98 0.0259
-251 0.0259
-221 0.0258
-1486 0.0258
-1340 0.0257
-1384 0.0257
-995 0.0256
-828 0.0256
-1847 0.0256
-32 0.0255
-286 0.0255
-646 0.0255
-2085 0.0255
-871 0.0254
-983 0.0254
-1904 0.0254
-2119 0.0253
-883 0.0253
-1973 0.0252
-1040 0.0252
-1876 0.0251
-1173 0.0251
-2084 0.0251
-392 0.0251
-2065 0.0250
-1987 0.0250
-1151 0.0249
-333 0.0249
-350 0.0248
-552 0.0248
-885 0.0248
-43 0.0246
-685 0.0246
-336 0.0245
-2207 0.0245
-80 0.0245
-1284 0.0245
-1918 0.0244
-1734 0.0243
-505 0.0242
-1988 0.0242
-929 0.0241
-997 0.0240
-41 0.0240
-135 0.0240
-299 0.0240
-1875 0.0239
-178 0.0239
-138 0.0239
-352 0.0239
-2172 0.0238
-608 0.0237
-561 0.0236
-443 0.0236
-1095 0.0235
-208 0.0235
-300 0.0235
-827 0.0233
-1051 0.0233
-626 0.0231
-284 0.0231
-1899 0.0230
-391 0.0230
-2110 0.0230
-941 0.0230
-938 0.0230
-2168 0.0229
-2013 0.0228
-928 0.0228
-351 0.0226
-2128 0.0226
-873 0.0226
-209 0.0226
-1229 0.0226
-1052 0.0226
-2070 0.0225
-935 0.0224
-1601 0.0223
-29 0.0222
-2111 0.0222
-1154 0.0222
-1049 0.0221
-702 0.0221
-665 0.0221
-254 0.0221
-1042 0.0220
-1544 0.0219
-2063 0.0219
-936 0.0218
-72 0.0218
-616 0.0218
-1382 0.0217
-2077 0.0217
-2089 0.0217
-534 0.0216
-108 0.0216
-252 0.0216
-2072 0.0215
-1102 0.0215
-1096 0.0215
-666 0.0215
-42 0.0214
-1439 0.0213
-1323 0.0213
-610 0.0213
-1903 0.0213
-390 0.0212
-30 0.0212
-683 0.0212
-2076 0.0212
-799 0.0211
-170 0.0211
-266 0.0211
-237 0.0211
-449 0.0211
-2109 0.0210
-1959 0.0210
-520 0.0208
-1919 0.0208
-1435 0.0207
-664 0.0207
-44 0.0207
-772 0.0207
-1846 0.0207
-1214 0.0207
-2112 0.0207
-387 0.0207
-383 0.0206
-2114 0.0206
-1932 0.0206
-800 0.0205
-236 0.0205
-330 0.0205
-1542 0.0204
-81 0.0203
-2028 0.0203
-1602 0.0202
-105 0.0202
-240 0.0200
-238 0.0199
-773 0.0199
-1161 0.0199
-460 0.0198
-1974 0.0198
-478 0.0197
-1764 0.0197
-555 0.0197
-285 0.0197
-1543 0.0197
-2071 0.0197
-50 0.0197
-1975 0.0196
-1050 0.0196
-2129 0.0195
-281 0.0195
-1326 0.0195
-1902 0.0195
-198 0.0194
-495 0.0193
-2235 0.0193
-210 0.0193
-161 0.0192
-31 0.0192
-727 0.0192
-829 0.0192
-335 0.0192
-2060 0.0192
-1790 0.0191
-2041 0.0191
-179 0.0191
-109 0.0190
-874 0.0190
-2027 0.0189
-994 0.0189
-1955 0.0188
-1452 0.0188
-1954 0.0187
-404 0.0187
-2170 0.0186
-1107 0.0185
-407 0.0185
-1658 0.0184
-2012 0.0183
-2118 0.0183
-1957 0.0183
-388 0.0183
-211 0.0183
-759 0.0183
-1901 0.0182
-107 0.0181
-142 0.0181
-1820 0.0181
-1039 0.0181
-771 0.0181
-2122 0.0181
-106 0.0180
-448 0.0179
-1508 0.0179
-1958 0.0178
-744 0.0178
-1273 0.0178
-2010 0.0177
-2062 0.0177
-1843 0.0176
-464 0.0176
-2011 0.0176
-826 0.0176
-405 0.0176
-1845 0.0176
-2169 0.0175
-2163 0.0175
-439 0.0175
-1440 0.0175
-1108 0.0174
-40 0.0174
-1547 0.0173
-1900 0.0173
-2113 0.0173
-937 0.0173
-2133 0.0172
-632 0.0172
-389 0.0172
-607 0.0171
-2121 0.0171
-127 0.0171
-423 0.0171
-197 0.0170
-1678 0.0170
-59 0.0170
-817 0.0170
-239 0.0169
-1956 0.0169
-1106 0.0168
-110 0.0168
-672 0.0168
-721 0.0167
-334 0.0167
-927 0.0167
-1053 0.0167
-61 0.0166
-515 0.0166
-2009 0.0166
-1708 0.0165
-499 0.0165
-406 0.0165
-444 0.0164
-886 0.0163
-196 0.0163
-504 0.0163
-2208 0.0163
-2061 0.0163
-2204 0.0162
-144 0.0162
-882 0.0162
-181 0.0162
-1933 0.0160
-2115 0.0160
-628 0.0159
-2234 0.0159
-571 0.0159
-63 0.0159
-551 0.0159
-2151 0.0159
-984 0.0157
-136 0.0157
-2239 0.0157
-872 0.0157
-195 0.0157
-2152 0.0156
-930 0.0156
-1842 0.0156
-1990 0.0155
-2042 0.0154
-1989 0.0154
-1597 0.0154
-137 0.0153
-1898 0.0153
-774 0.0153
-1109 0.0152
-998 0.0151
-2153 0.0151
-2205 0.0150
-62 0.0150
-720 0.0150
-990 0.0150
-82 0.0150
-1600 0.0149
-1877 0.0149
-590 0.0149
-1653 0.0148
-461 0.0148
-2200 0.0148
-367 0.0147
-97 0.0147
-716 0.0146
-172 0.0146
-64 0.0146
-2161 0.0146
-171 0.0145
-667 0.0144
-782 0.0144
-447 0.0144
-2116 0.0144
-934 0.0143
-722 0.0143
-159 0.0143
-815 0.0142
-45 0.0142
-611 0.0142
-516 0.0142
-2206 0.0142
-315 0.0142
-1565 0.0141
-627 0.0141
-222 0.0141
-329 0.0140
-1598 0.0140
-1789 0.0140
-881 0.0139
-1844 0.0139
-1162 0.0139
-2108 0.0139
-445 0.0139
-145 0.0139
-719 0.0138
-1495 0.0138
-663 0.0137
-147 0.0137
-880 0.0137
-1005 0.0137
-1218 0.0137
-1117 0.0137
-49 0.0136
-2173 0.0136
-1765 0.0135
-1621 0.0135
-715 0.0135
-606 0.0134
-143 0.0134
-837 0.0134
-1211 0.0133
-560 0.0133
-1934 0.0133
-71 0.0132
-1395 0.0132
-462 0.0132
-1787 0.0132
-1821 0.0131
-2154 0.0131
-463 0.0131
-830 0.0130
-87 0.0130
-816 0.0130
-86 0.0129
-2043 0.0129
-160 0.0129
-1936 0.0129
-2008 0.0128
-717 0.0128
-778 0.0127
-65 0.0126
-775 0.0126
-114 0.0125
-2090 0.0125
-2059 0.0124
-1228 0.0124
-556 0.0123
-2160 0.0123
-2117 0.0123
-879 0.0123
-818 0.0122
-126 0.0122
-1163 0.0122
-1733 0.0122
-1599 0.0122
-1992 0.0122
-718 0.0122
-382 0.0121
-2106 0.0121
-500 0.0121
-776 0.0121
-1788 0.0121
-46 0.0120
-2150 0.0120
-1099 0.0120
-2107 0.0120
-89 0.0120
-2236 0.0119
-517 0.0119
-572 0.0119
-158 0.0119
-1935 0.0119
-280 0.0119
-987 0.0119
-503 0.0118
-942 0.0118
-1991 0.0118
-2189 0.0118
-2044 0.0117
-576 0.0117
-1709 0.0117
-182 0.0117
-48 0.0116
-112 0.0116
-647 0.0116
-742 0.0116
-194 0.0115
-1379 0.0115
-115 0.0115
-1157 0.0115
-235 0.0115
-267 0.0114
-726 0.0114
-1879 0.0114
-2162 0.0114
-446 0.0114
-518 0.0113
-47 0.0113
-223 0.0113
-574 0.0113
-317 0.0113
-494 0.0113
-96 0.0113
-83 0.0112
-184 0.0111
-1283 0.0111
-519 0.0111
-535 0.0111
-1713 0.0111
-2267 0.0110
-688 0.0110
-183 0.0110
-113 0.0110
-2155 0.0110
-316 0.0110
-1732 0.0109
-60 0.0109
-777 0.0109
-1878 0.0109
-111 0.0109
-1677 0.0108
-438 0.0108
-1164 0.0108
-368 0.0108
-1172 0.0107
-550 0.0107
-1731 0.0107
-2190 0.0107
-662 0.0106
-88 0.0106
-770 0.0106
-825 0.0106
-146 0.0106
-1491 0.0105
-1620 0.0105
-762 0.0105
-1045 0.0105
-1953 0.0105
-2156 0.0105
-2233 0.0105
-424 0.0104
-1657 0.0104
-501 0.0104
-85 0.0104
-84 0.0104
-2238 0.0104
-479 0.0103
-1654 0.0103
-148 0.0103
-224 0.0103
-1786 0.0103
-225 0.0103
-157 0.0102
-714 0.0102
-660 0.0101
-661 0.0101
-703 0.0101
-116 0.0100
-605 0.0100
-125 0.0099
-70 0.0098
-743 0.0098
-425 0.0098
-875 0.0098
-779 0.0098
-268 0.0097
-668 0.0097
-761 0.0097
-2237 0.0096
-2091 0.0096
-269 0.0096
-1219 0.0095
-723 0.0095
-1676 0.0095
-1507 0.0094
-1564 0.0094
-686 0.0094
-615 0.0094
-612 0.0093
-1656 0.0093
-831 0.0093
-2157 0.0092
-1841 0.0092
-2159 0.0092
-832 0.0092
-1766 0.0092
-502 0.0091
-887 0.0091
-1619 0.0091
-1880 0.0091
-369 0.0091
-893 0.0090
-1269 0.0090
-833 0.0090
-760 0.0089
-573 0.0089
-117 0.0089
-629 0.0089
-2158 0.0088
-1822 0.0088
-1730 0.0088
-2263 0.0087
-1710 0.0087
-1655 0.0087
-2199 0.0087
-480 0.0087
-575 0.0087
-124 0.0086
-1438 0.0086
-1714 0.0086
-2092 0.0086
-591 0.0085
-1267 0.0085
-149 0.0085
-631 0.0085
-1897 0.0085
-1381 0.0085
-557 0.0085
-1993 0.0084
-1110 0.0084
-493 0.0084
-2149 0.0083
-558 0.0083
-1881 0.0083
-1937 0.0082
-66 0.0082
-659 0.0082
-671 0.0082
-2264 0.0082
-1675 0.0082
-559 0.0082
-834 0.0081
-823 0.0080
-370 0.0080
-2134 0.0080
-2191 0.0080
-69 0.0079
-669 0.0079
-705 0.0079
-1823 0.0078
-613 0.0078
-1339 0.0078
-1441 0.0078
-90 0.0078
-2192 0.0078
-704 0.0077
-888 0.0077
-549 0.0077
-1494 0.0077
-95 0.0077
-1220 0.0077
-824 0.0076
-1767 0.0076
-1165 0.0076
-537 0.0075
-1274 0.0075
-1330 0.0075
-68 0.0075
-185 0.0075
-1054 0.0075
-2198 0.0075
-1769 0.0075
-536 0.0074
-481 0.0074
-1060 0.0074
-1824 0.0074
-328 0.0074
-592 0.0073
-67 0.0073
-648 0.0073
-318 0.0073
-193 0.0073
-593 0.0073
-649 0.0073
-724 0.0072
-118 0.0072
-2265 0.0071
-706 0.0071
-381 0.0071
-1952 0.0071
-670 0.0071
-725 0.0071
-1451 0.0071
-1659 0.0070
-878 0.0070
-1385 0.0070
-1563 0.0070
-279 0.0070
-1712 0.0070
-614 0.0069
-604 0.0069
-687 0.0069
-2188 0.0069
-835 0.0068
-780 0.0068
-650 0.0068
-999 0.0068
-1825 0.0068
-2007 0.0068
-1785 0.0067
-2148 0.0067
-94 0.0067
-2266 0.0067
-427 0.0067
-1711 0.0067
-1155 0.0067
-1618 0.0067
-2045 0.0066
-630 0.0066
-426 0.0066
-1729 0.0066
-1221 0.0065
-603 0.0065
-931 0.0065
-1101 0.0065
-781 0.0065
-270 0.0064
-1674 0.0064
-538 0.0064
-234 0.0064
-1043 0.0063
-2193 0.0063
-836 0.0063
-2135 0.0063
-2058 0.0063
-2194 0.0063
-150 0.0063
-948 0.0062
-943 0.0062
-2232 0.0062
-1768 0.0062
-1171 0.0062
-822 0.0062
-763 0.0062
-1213 0.0061
-2262 0.0061
-1116 0.0061
-2240 0.0061
-889 0.0060
-1551 0.0060
-1394 0.0060
-890 0.0060
-186 0.0060
-1770 0.0060
-658 0.0060
-156 0.0059
-2224 0.0059
-769 0.0059
-437 0.0059
-2209 0.0058
-1994 0.0058
-2197 0.0058
-1275 0.0058
-226 0.0057
-2105 0.0057
-2195 0.0057
-482 0.0057
-2174 0.0057
-123 0.0057
-891 0.0056
-713 0.0056
-2290 0.0056
-119 0.0056
-1552 0.0055
-2225 0.0055
-1325 0.0055
-819 0.0055
-594 0.0055
-933 0.0054
-768 0.0054
-1840 0.0054
-1506 0.0054
-547 0.0054
-327 0.0054
-371 0.0053
-2223 0.0053
-492 0.0053
-2187 0.0053
-91 0.0053
-1436 0.0052
-602 0.0052
-380 0.0052
-944 0.0052
-151 0.0051
-2291 0.0051
-227 0.0051
-2196 0.0051
-92 0.0051
-767 0.0050
-1496 0.0050
-1227 0.0050
-1883 0.0050
-1276 0.0049
-892 0.0049
-1882 0.0049
-278 0.0049
-539 0.0049
-275 0.0049
-548 0.0049
-1673 0.0049
-1324 0.0049
-319 0.0049
-1896 0.0049
-1562 0.0049
-379 0.0049
-2241 0.0049
-271 0.0048
-230 0.0048
-93 0.0048
-120 0.0048
-1603 0.0048
-323 0.0048
-1331 0.0047
-152 0.0047
-188 0.0047
-651 0.0047
-1380 0.0047
-276 0.0047
-1004 0.0047
-483 0.0047
-2093 0.0047
-326 0.0047
-321 0.0047
-1437 0.0047
-540 0.0046
-324 0.0046
-428 0.0046
-946 0.0046
-122 0.0046
-325 0.0046
-376 0.0046
-1617 0.0046
-272 0.0045
-373 0.0045
-436 0.0045
-945 0.0045
-1826 0.0045
-484 0.0045
-375 0.0045
-947 0.0045
-2288 0.0045
-155 0.0044
-187 0.0044
-595 0.0044
-322 0.0044
-2226 0.0044
-989 0.0044
-229 0.0044
-876 0.0044
-320 0.0043
-1938 0.0043
-274 0.0043
-1059 0.0043
-433 0.0043
-490 0.0043
-1771 0.0043
-377 0.0043
-189 0.0043
-273 0.0043
-232 0.0043
-1000 0.0043
-228 0.0042
-378 0.0042
-1212 0.0042
-1282 0.0042
-2261 0.0042
-1166 0.0042
-374 0.0042
-2231 0.0042
-372 0.0042
-233 0.0042
-491 0.0042
-2227 0.0042
-154 0.0042
-2175 0.0042
-429 0.0042
-431 0.0041
-1111 0.0041
-1493 0.0041
-231 0.0041
-277 0.0041
-430 0.0041
-2268 0.0041
-192 0.0040
-1115 0.0040
-1055 0.0040
-710 0.0040
-435 0.0040
-1001 0.0040
-1100 0.0040
-2228 0.0040
-1222 0.0039
-121 0.0039
-1003 0.0039
-190 0.0039
-1548 0.0039
-432 0.0039
-1450 0.0039
-766 0.0038
-153 0.0038
-1550 0.0038
-1058 0.0038
-712 0.0038
-1338 0.0038
-2136 0.0038
-596 0.0038
-542 0.0037
-1616 0.0037
-541 0.0037
-489 0.0037
-1056 0.0037
-2289 0.0037
-191 0.0037
-488 0.0037
-1672 0.0037
-707 0.0037
-601 0.0037
-1728 0.0037
-988 0.0036
-546 0.0036
-2254 0.0036
-2210 0.0036
-1332 0.0036
-1827 0.0036
-485 0.0036
-434 0.0036
-1607 0.0036
-1002 0.0036
-711 0.0036
-1277 0.0036
-1386 0.0036
-652 0.0035
-657 0.0035
-655 0.0035
-543 0.0035
-2222 0.0035
-1939 0.0035
-1561 0.0035
-1044 0.0035
-486 0.0035
-1784 0.0035
-1492 0.0034
-764 0.0034
-2046 0.0034
-1114 0.0034
-2229 0.0034
-877 0.0034
-821 0.0034
-2287 0.0033
-1057 0.0033
-1156 0.0033
-1505 0.0033
-2186 0.0033
-656 0.0033
-1170 0.0033
-1442 0.0033
-545 0.0032
-2104 0.0032
-2255 0.0032
-1113 0.0032
-544 0.0032
-1112 0.0032
-1268 0.0032
-598 0.0031
-2230 0.0031
-487 0.0031
-654 0.0031
-2147 0.0031
-600 0.0031
-2286 0.0031
-599 0.0031
-820 0.0031
-1715 0.0031
-1884 0.0031
-932 0.0030
-653 0.0030
-1560 0.0030
-1839 0.0030
-1226 0.0029
-2057 0.0029
-1606 0.0029
-2006 0.0029
-2260 0.0029
-709 0.0028
-1333 0.0028
-1169 0.0028
-1387 0.0028
-708 0.0027
-597 0.0027
-1549 0.0027
-1167 0.0027
-1772 0.0027
-2253 0.0027
-1504 0.0027
-1497 0.0027
-1727 0.0027
-765 0.0026
-1940 0.0026
-1393 0.0026
-1660 0.0026
-2221 0.0026
-1783 0.0026
-2256 0.0026
-2311 0.0026
-1168 0.0026
-1281 0.0026
-1449 0.0026
-1223 0.0025
-2309 0.0025
-1604 0.0025
-1278 0.0024
-1995 0.0024
-1225 0.0024
-1608 0.0024
-1553 0.0024
-1615 0.0023
-1388 0.0023
-2310 0.0023
-2257 0.0023
-2258 0.0023
-1663 0.0023
-2307 0.0022
-1337 0.0022
-1392 0.0022
-1671 0.0022
-1448 0.0022
-1334 0.0021
-2176 0.0021
-1664 0.0021
-2308 0.0021
-1503 0.0021
-1828 0.0021
-2259 0.0021
-1224 0.0021
-1773 0.0021
-1716 0.0021
-2211 0.0021
-1443 0.0020
-2137 0.0020
-1280 0.0020
-1885 0.0020
-2285 0.0020
-1444 0.0020
-2269 0.0019
-2284 0.0019
-2094 0.0019
-1605 0.0019
-2280 0.0019
-2292 0.0019
-1951 0.0018
-2220 0.0018
-1726 0.0018
-1279 0.0018
-2242 0.0018
-2283 0.0018
-1838 0.0018
-1336 0.0018
-1895 0.0018
-1391 0.0018
-1389 0.0017
-1554 0.0017
-1498 0.0017
-2252 0.0017
-1447 0.0017
-1335 0.0017
-2282 0.0017
-1609 0.0017
-1614 0.0016
-2281 0.0016
-2185 0.0016
-1390 0.0016
-1445 0.0016
-1446 0.0016
-1559 0.0016
-2279 0.0015
-2251 0.0015
-1661 0.0015
-2325 0.0015
-1610 0.0015
-1665 0.0015
-1558 0.0015
-1670 0.0015
-1829 0.0015
-1718 0.0015
-2306 0.0015
-2305 0.0015
-1500 0.0015
-1499 0.0014
-2302 0.0014
-1996 0.0014
-2324 0.0014
-2047 0.0014
-2146 0.0014
-1719 0.0014
-2005 0.0014
-2278 0.0014
-2103 0.0014
-1613 0.0014
-1662 0.0014
-2304 0.0014
-1666 0.0014
-1725 0.0013
-2323 0.0013
-2301 0.0013
-1555 0.0013
-2056 0.0013
-1720 0.0013
-1502 0.0013
-2250 0.0013
-2303 0.0013
-2327 0.0013
-1717 0.0013
-1501 0.0012
-2326 0.0012
-1556 0.0012
-2277 0.0012
-2336 0.0012
-2177 0.0012
-1782 0.0012
-2312 0.0012
-2212 0.0012
-2300 0.0012
-1774 0.0012
-1557 0.0012
-1612 0.0012
-1721 0.0012
-1669 0.0012
-2344 0.0012
-1611 0.0011
-1941 0.0011
-1894 0.0011
-1722 0.0011
-2293 0.0011
-2337 0.0011
-2322 0.0011
-2321 0.0011
-2320 0.0011
-1724 0.0011
-1950 0.0011
-1667 0.0011
-2345 0.0011
-2318 0.0011
-1775 0.0011
-2270 0.0011
-2319 0.0011
-2332 0.0010
-2350 0.0010
-1776 0.0010
-1837 0.0010
-2335 0.0010
-1777 0.0010
-2349 0.0010
-2333 0.0010
-2219 0.0010
-2343 0.0010
-2346 0.0010
-2138 0.0010
-2184 0.0010
-2334 0.0010
-2052 0.0010
-2004 0.0010
-2001 0.0010
-1946 0.0010
-2328 0.0010
-2249 0.0010
-1668 0.0010
-2339 0.0010
-1947 0.0010
-2276 0.0009
-2243 0.0009
-2055 0.0009
-1780 0.0009
-2247 0.0009
-2248 0.0009
-1778 0.0009
-2002 0.0009
-2216 0.0009
-1893 0.0009
-2338 0.0009
-2342 0.0009
-2003 0.0009
-1781 0.0009
-1886 0.0009
-1892 0.0009
-1891 0.0009
-2299 0.0009
-2181 0.0009
-2000 0.0009
-1835 0.0009
-1723 0.0009
-2183 0.0009
-2218 0.0009
-2317 0.0009
-1944 0.0009
-1779 0.0009
-2351 0.0009
-1890 0.0009
-1836 0.0009
-2145 0.0009
-1834 0.0009
-2313 0.0009
-2298 0.0009
-1831 0.0009
-1949 0.0009
-1833 0.0009
-2051 0.0009
-1997 0.0009
-2182 0.0009
-1832 0.0009
-2275 0.0008
-1945 0.0008
-2217 0.0008
-2274 0.0008
-2099 0.0008
-2341 0.0008
-1889 0.0008
-2142 0.0008
-2348 0.0008
-2102 0.0008
-2101 0.0008
-2098 0.0008
-2331 0.0008
-2095 0.0008
-2329 0.0008
-2100 0.0008
-2316 0.0008
-2347 0.0008
-2297 0.0008
-2144 0.0008
-2053 0.0008
-1942 0.0008
-2054 0.0008
-2143 0.0008
-2048 0.0008
-2097 0.0008
-1999 0.0008
-2213 0.0008
-2294 0.0007
-1948 0.0007
-2050 0.0007
-2330 0.0007
-2244 0.0007
-2271 0.0007
-1888 0.0007
-2315 0.0007
-1998 0.0007
-2141 0.0007
-1830 0.0007
-2180 0.0007
-2340 0.0007
-2246 0.0007
-2215 0.0007
-1887 0.0007
-1943 0.0007
-2273 0.0007
-2295 0.0007
-2049 0.0007
-2272 0.0007
-2314 0.0007
-2296 0.0007
-2178 0.0006
-2245 0.0006
-2139 0.0006
-2140 0.0006
-2096 0.0006
-2214 0.0006
-2179 0.0006
+1525 3.0312
+1294 3.0136
+1581 2.7312
+1463 2.6973
+1238 2.6963
+1406 2.5314
+1469 2.4804
+1350 2.4711
+1351 2.4612
+1239 2.4174
+1519 2.3882
+1301 2.2920
+1189 2.2899
+1413 2.2615
+1133 2.2291
+1518 2.2211
+1347 2.1961
+1524 2.1797
+1293 2.1790
+1291 2.1297
+1358 2.1057
+1234 2.0987
+1348 2.0945
+1575 2.0677
+1245 2.0458
+1403 1.9699
+1182 1.9586
+1470 1.9483
+1290 1.9024
+1462 1.8997
+1582 1.8807
+1235 1.8780
+1349 1.8577
+1404 1.8494
+1292 1.8281
+1246 1.7940
+1178 1.7882
+1188 1.7464
+1407 1.7393
+1289 1.7357
+1405 1.7290
+1461 1.7282
+1573 1.7226
+1637 1.7216
+1177 1.7118
+1236 1.6968
+1237 1.6906
+1402 1.6583
+1357 1.6580
+1295 1.6297
+1636 1.6257
+1464 1.6219
+1460 1.6072
+1517 1.5928
+1574 1.5817
+1516 1.5802
+1132 1.5756
+1008 1.5749
+1414 1.5713
+1233 1.5593
+951 1.5569
+1346 1.5518
+1179 1.5384
+1076 1.5350
+1459 1.5267
+1181 1.5118
+1631 1.5026
+1134 1.4922
+1629 1.4775
+1131 1.4770
+1130 1.4719
+1122 1.4658
+1074 1.4214
+1580 1.4191
+1077 1.4079
+1533 1.3978
+1302 1.3929
+903 1.3871
+1576 1.3791
+1642 1.3548
+1412 1.3462
+1586 1.3435
+1478 1.3309
+1477 1.3146
+1630 1.2870
+1526 1.2706
+1515 1.2649
+1421 1.2623
+1590 1.2621
+1628 1.2507
+1534 1.2460
+1123 1.2404
+1186 1.2296
+1288 1.2173
+1468 1.2164
+1688 1.2136
+1180 1.2098
+1187 1.2091
+1641 1.2023
+1007 1.1900
+1063 1.1853
+1532 1.1843
+1589 1.1837
+1408 1.1760
+1345 1.1573
+1520 1.1560
+1075 1.1497
+1073 1.1481
+1300 1.1478
+1465 1.1412
+1352 1.1355
+1693 1.1294
+958 1.1275
+1126 1.1196
+1244 1.1194
+1121 1.1162
+1176 1.1146
+1572 1.0996
+1185 1.0987
+1425 1.0893
+1366 1.0878
+1124 1.0873
+1588 1.0871
+1420 1.0747
+1685 1.0747
+1687 1.0714
+1587 1.0668
+1537 1.0653
+1183 1.0613
+1698 1.0557
+1242 1.0542
+1065 1.0539
+1458 1.0525
+1482 1.0504
+1645 1.0487
+1400 1.0478
+1018 1.0387
+1064 1.0386
+1512 1.0331
+1021 1.0271
+1632 1.0265
+1521 1.0212
+1365 1.0166
+1530 1.0148
+1201 1.0020
+1190 0.9973
+1643 0.9972
+1401 0.9941
+1409 0.9888
+1257 0.9821
+1514 0.9773
+1422 0.9730
+952 0.9656
+1457 0.9607
+1240 0.9606
+1686 0.9605
+1241 0.9598
+959 0.9549
+1476 0.9546
+1243 0.9513
+1353 0.9466
+1743 0.9456
+1066 0.9455
+1481 0.9435
+1127 0.9410
+1531 0.9408
+1456 0.9399
+1635 0.9361
+1145 0.9361
+1232 0.9359
+1694 0.9358
+1369 0.9354
+1577 0.9305
+1523 0.9304
+1260 0.9299
+1593 0.9258
+1344 0.9228
+1297 0.9191
+902 0.9173
+1009 0.9162
+1019 0.9145
+1020 0.9138
+1741 0.9120
+1129 0.9081
+1479 0.9065
+1644 0.9039
+1699 0.9033
+1692 0.8974
+1799 0.8929
+1014 0.8919
+1120 0.8903
+1466 0.8887
+847 0.8859
+846 0.8813
+1924 0.8807
+1579 0.8785
+1591 0.8660
+1513 0.8649
+1356 0.8637
+1578 0.8627
+1868 0.8613
+1638 0.8556
+1700 0.8430
+1200 0.8417
+1536 0.8398
+1296 0.8393
+1309 0.8361
+1634 0.8316
+896 0.8291
+1313 0.8272
+1354 0.8266
+1691 0.8220
+1855 0.8210
+1298 0.8118
+1649 0.8076
+1569 0.8052
+1184 0.8048
+1067 0.8032
+1853 0.7952
+1015 0.7950
+1070 0.7929
+1633 0.7907
+1646 0.7905
+1287 0.7901
+1522 0.7881
+1594 0.7873
+1702 0.7854
+1797 0.7849
+1359 0.7830
+904 0.7758
+1854 0.7730
+1648 0.7707
+1411 0.7705
+1312 0.7704
+1571 0.7676
+1980 0.7649
+1399 0.7645
+1125 0.7639
+1467 0.7610
+1647 0.7610
+1592 0.7550
+1690 0.7528
+895 0.7500
+1535 0.7492
+1424 0.7490
+962 0.7485
+1471 0.7477
+1925 0.7473
+1410 0.7456
+1529 0.7436
+1010 0.7425
+1364 0.7421
+1175 0.7347
+1299 0.7343
+1370 0.7302
+1568 0.7287
+961 0.7268
+1742 0.7265
+1017 0.7220
+964 0.7185
+1740 0.7183
+1746 0.7147
+1800 0.7082
+1701 0.7022
+1078 0.7018
+1089 0.6996
+1475 0.6988
+1308 0.6927
+1704 0.6923
+1355 0.6921
+1852 0.6900
+1022 0.6857
+1798 0.6803
+1247 0.6802
+11 0.6795
+1689 0.6775
+1069 0.6753
+963 0.6749
+1570 0.6706
+1474 0.6699
+1747 0.6697
+1256 0.6693
+1624 0.6686
+1813 0.6678
+1812 0.6654
+1627 0.6647
+1583 0.6646
+1511 0.6633
+950 0.6617
+1755 0.6615
+3 0.6604
+1316 0.6560
+1756 0.6546
+1979 0.6538
+1480 0.6520
+1705 0.6442
+953 0.6397
+1684 0.6381
+1146 0.6363
+1910 0.6357
+957 0.6302
+1072 0.6299
+1419 0.6296
+1423 0.6282
+1204 0.6275
+2032 0.6250
+1426 0.6247
+1909 0.6204
+1343 0.6191
+1231 0.6166
+1258 0.6128
+1703 0.6095
+1128 0.6082
+1368 0.6053
+1760 0.6048
+897 0.6045
+1867 0.5919
+1119 0.5856
+905 0.5842
+1538 0.5814
+1911 0.5802
+960 0.5779
+1088 0.5776
+1754 0.5764
+1748 0.5752
+1923 0.5733
+1310 0.5731
+0 0.5724
+1749 0.5685
+1068 0.5670
+1744 0.5647
+1144 0.5611
+1585 0.5603
+1367 0.5547
+1978 0.5486
+1759 0.5476
+1803 0.5473
+908 0.5422
+1697 0.5418
+1753 0.5412
+1033 0.5400
+1011 0.5400
+1965 0.5397
+965 0.5387
+1254 0.5380
+1071 0.5371
+2081 0.5334
+1252 0.5332
+1205 0.5330
+1418 0.5312
+1626 0.5306
+1757 0.5295
+1253 0.5287
+2031 0.5270
+10 0.5239
+1311 0.5232
+1745 0.5187
+2080 0.5160
+1317 0.5155
+848 0.5140
+1625 0.5088
+1455 0.5062
+2 0.5026
+906 0.5003
+1023 0.4967
+1802 0.4953
+1016 0.4947
+1706 0.4934
+2125 0.4884
+909 0.4873
+1135 0.4869
+1869 0.4867
+1866 0.4814
+1062 0.4746
+1013 0.4742
+1372 0.4677
+1199 0.4673
+907 0.4667
+1758 0.4665
+791 0.4599
+1315 0.4588
+1307 0.4586
+1031 0.4554
+1804 0.4544
+1683 0.4541
+974 0.4511
+1811 0.4510
+1286 0.4507
+1363 0.4502
+1012 0.4492
+1922 0.4480
+2033 0.4474
+852 0.4456
+4 0.4412
+851 0.4393
+966 0.4329
+792 0.4318
+257 0.4298
+1816 0.4291
+1148 0.4249
+840 0.4245
+1912 0.4238
+1761 0.4237
+1314 0.4223
+22 0.4216
+1796 0.4204
+1415 0.4191
+1650 0.4160
+1086 0.4152
+1858 0.4129
+1034 0.4110
+1087 0.4103
+967 0.4086
+1810 0.4076
+1032 0.4059
+1681 0.4052
+1255 0.4050
+1 0.3999
+1196 0.3993
+977 0.3974
+1303 0.3963
+1143 0.3944
+1417 0.3933
+845 0.3912
+849 0.3905
+1623 0.3875
+1473 0.3867
+21 0.3867
+975 0.3862
+1195 0.3817
+1174 0.3806
+790 0.3800
+1814 0.3797
+1030 0.3795
+1966 0.3786
+1198 0.3781
+1640 0.3763
+1483 0.3754
+1680 0.3754
+1817 0.3751
+1528 0.3722
+839 0.3719
+976 0.3696
+796 0.3687
+841 0.3658
+1398 0.3648
+258 0.3647
+9 0.3646
+2126 0.3645
+1981 0.3643
+1527 0.3642
+898 0.3624
+1815 0.3615
+1856 0.3607
+954 0.3602
+1682 0.3584
+919 0.3579
+2079 0.3575
+1202 0.3565
+509 0.3561
+911 0.3552
+1371 0.3551
+1750 0.3549
+1695 0.3505
+1859 0.3503
+2030 0.3489
+921 0.3488
+1427 0.3466
+256 0.3459
+918 0.3443
+1197 0.3429
+1142 0.3425
+5 0.3405
+1639 0.3385
+1801 0.3376
+23 0.3371
+955 0.3341
+621 0.3341
+2124 0.3337
+1090 0.3328
+901 0.3323
+1092 0.3315
+259 0.3313
+1805 0.3287
+1203 0.3267
+304 0.3259
+1739 0.3254
+303 0.3249
+910 0.3239
+1191 0.3216
+214 0.3214
+1251 0.3209
+1567 0.3204
+694 0.3193
+1362 0.3184
+215 0.3163
+1865 0.3157
+20 0.3149
+869 0.3127
+1306 0.3116
+565 0.3114
+566 0.3110
+850 0.3087
+1595 0.3083
+956 0.3081
+1915 0.3073
+677 0.3046
+1809 0.3041
+1259 0.3026
+862 0.3023
+453 0.3009
+508 0.3008
+1584 0.2997
+2166 0.2992
+306 0.2987
+924 0.2982
+1964 0.2979
+1140 0.2951
+807 0.2946
+973 0.2941
+637 0.2940
+1006 0.2936
+1977 0.2925
+1971 0.2916
+1967 0.2914
+1871 0.2914
+8 0.2890
+454 0.2888
+920 0.2874
+1428 0.2869
+750 0.2868
+213 0.2864
+510 0.2850
+1738 0.2845
+980 0.2836
+1926 0.2834
+638 0.2833
+2024 0.2829
+813 0.2827
+620 0.2826
+925 0.2824
+1085 0.2810
+1036 0.2799
+216 0.2794
+12 0.2787
+1857 0.2783
+397 0.2779
+307 0.2760
+870 0.2760
+205 0.2751
+1079 0.2750
+2082 0.2746
+2165 0.2745
+582 0.2743
+734 0.2737
+786 0.2737
+1261 0.2735
+1806 0.2710
+912 0.2699
+981 0.2697
+622 0.2690
+1472 0.2684
+294 0.2676
+853 0.2666
+1342 0.2660
+1139 0.2652
+1141 0.2649
+132 0.2643
+166 0.2627
+1736 0.2619
+567 0.2619
+1416 0.2614
+305 0.2614
+1970 0.2606
+37 0.2605
+341 0.2604
+1872 0.2600
+695 0.2584
+1870 0.2577
+806 0.2577
+564 0.2569
+636 0.2569
+863 0.2569
+1091 0.2564
+693 0.2549
+797 0.2548
+396 0.2548
+452 0.2546
+678 0.2537
+1093 0.2535
+733 0.2523
+1147 0.2523
+1230 0.2520
+1908 0.2507
+793 0.2506
+749 0.2497
+740 0.2490
+455 0.2486
+1914 0.2483
+6 0.2480
+580 0.2476
+812 0.2476
+735 0.2467
+1752 0.2462
+1194 0.2460
+2019 0.2459
+290 0.2458
+922 0.2453
+398 0.2449
+581 0.2436
+165 0.2433
+1510 0.2432
+1860 0.2432
+399 0.2430
+1737 0.2424
+204 0.2420
+785 0.2417
+676 0.2415
+751 0.2412
+1360 0.2410
+899 0.2394
+864 0.2391
+523 0.2387
+1696 0.2387
+36 0.2382
+861 0.2378
+131 0.2374
+13 0.2370
+842 0.2367
+868 0.2363
+732 0.2361
+865 0.2359
+1916 0.2355
+101 0.2351
+1024 0.2345
+1083 0.2339
+358 0.2335
+345 0.2334
+244 0.2327
+729 0.2326
+395 0.2324
+19 0.2321
+38 0.2312
+789 0.2301
+730 0.2295
+1035 0.2287
+355 0.2286
+894 0.2283
+795 0.2278
+260 0.2277
+635 0.2277
+340 0.2273
+2025 0.2271
+619 0.2270
+675 0.2267
+900 0.2266
+511 0.2250
+342 0.2244
+102 0.2235
+838 0.2231
+579 0.2226
+794 0.2225
+844 0.2222
+35 0.2219
+245 0.2217
+1149 0.2212
+175 0.2207
+978 0.2205
+1539 0.2204
+75 0.2203
+808 0.2203
+346 0.2199
+344 0.2193
+679 0.2172
+524 0.2172
+731 0.2172
+247 0.2166
+167 0.2160
+2018 0.2152
+7 0.2143
+248 0.2142
+1373 0.2140
+1361 0.2136
+291 0.2135
+697 0.2120
+243 0.2120
+809 0.2119
+692 0.2115
+1029 0.2110
+753 0.2108
+2034 0.2105
+1913 0.2098
+507 0.2096
+525 0.2096
+400 0.2094
+456 0.2092
+1084 0.2086
+176 0.2086
+343 0.2078
+202 0.2072
+674 0.2067
+752 0.2065
+979 0.2056
+1250 0.2051
+1305 0.2045
+2023 0.2041
+401 0.2039
+926 0.2038
+1851 0.2038
+805 0.2037
+295 0.2035
+982 0.2029
+757 0.2025
+526 0.2022
+748 0.2013
+2074 0.2012
+53 0.2005
+1429 0.2004
+583 0.2004
+357 0.1987
+1762 0.1984
+34 0.1983
+289 0.1975
+293 0.1973
+787 0.1970
+788 0.1967
+1454 0.1959
+634 0.1958
+1037 0.1957
+354 0.1956
+467 0.1951
+1794 0.1944
+746 0.1942
+292 0.1937
+736 0.1935
+164 0.1933
+1082 0.1929
+968 0.1928
+14 0.1927
+356 0.1925
+1927 0.1923
+201 0.1922
+1921 0.1921
+1138 0.1917
+563 0.1913
+784 0.1906
+347 0.1888
+691 0.1887
+1285 0.1884
+618 0.1880
+468 0.1878
+1864 0.1874
+1377 0.1872
+130 0.1870
+1028 0.1869
+843 0.1863
+1248 0.1861
+639 0.1860
+52 0.1859
+917 0.1857
+854 0.1855
+246 0.1846
+203 0.1842
+411 0.1841
+457 0.1840
+359 0.1839
+1818 0.1837
+1982 0.1837
+133 0.1835
+100 0.1833
+696 0.1830
+1795 0.1827
+1972 0.1827
+1751 0.1826
+129 0.1821
+522 0.1818
+1707 0.1815
+2073 0.1804
+206 0.1798
+308 0.1793
+810 0.1790
+296 0.1789
+803 0.1789
+1027 0.1778
+513 0.1776
+74 0.1774
+866 0.1773
+1928 0.1772
+747 0.1770
+1318 0.1761
+1793 0.1761
+698 0.1757
+758 0.1755
+1968 0.1752
+1397 0.1750
+641 0.1750
+394 0.1748
+312 0.1744
+1193 0.1733
+1136 0.1732
+451 0.1732
+1873 0.1721
+739 0.1718
+470 0.1716
+163 0.1707
+923 0.1705
+1807 0.1704
+363 0.1697
+76 0.1696
+855 0.1696
+1118 0.1696
+412 0.1692
+1861 0.1690
+1679 0.1686
+640 0.1685
+1206 0.1682
+414 0.1680
+858 0.1678
+249 0.1677
+255 0.1667
+174 0.1660
+690 0.1659
+623 0.1657
+1735 0.1653
+413 0.1652
+814 0.1648
+2020 0.1647
+1263 0.1629
+55 0.1627
+1264 0.1623
+1808 0.1621
+18 0.1615
+410 0.1611
+1320 0.1609
+1374 0.1609
+1432 0.1603
+802 0.1602
+1319 0.1601
+512 0.1601
+33 0.1601
+1376 0.1598
+54 0.1597
+971 0.1595
+56 0.1592
+1304 0.1583
+756 0.1582
+469 0.1577
+288 0.1573
+339 0.1572
+168 0.1571
+458 0.1561
+1433 0.1557
+578 0.1556
+1969 0.1554
+242 0.1554
+1484 0.1553
+2078 0.1552
+1271 0.1552
+506 0.1552
+867 0.1551
+1917 0.1549
+2029 0.1535
+1094 0.1534
+1265 0.1524
+264 0.1524
+1375 0.1521
+15 0.1516
+364 0.1498
+1262 0.1497
+313 0.1495
+804 0.1485
+1104 0.1485
+673 0.1483
+585 0.1483
+1249 0.1481
+2202 0.1479
+569 0.1479
+860 0.1476
+972 0.1473
+1651 0.1468
+915 0.1465
+1850 0.1456
+1103 0.1454
+701 0.1449
+200 0.1443
+419 0.1442
+2026 0.1436
+1216 0.1436
+1434 0.1433
+103 0.1433
+754 0.1428
+1341 0.1426
+562 0.1424
+859 0.1420
+1321 0.1420
+1622 0.1417
+568 0.1410
+2123 0.1408
+970 0.1408
+811 0.1404
+680 0.1403
+1862 0.1401
+1026 0.1397
+1396 0.1395
+409 0.1386
+217 0.1384
+471 0.1383
+1159 0.1382
+916 0.1382
+1209 0.1381
+700 0.1379
+1081 0.1378
+2127 0.1375
+617 0.1368
+625 0.1363
+365 0.1361
+737 0.1347
+2167 0.1346
+1792 0.1345
+1047 0.1345
+25 0.1344
+39 0.1342
+1983 0.1332
+1929 0.1331
+261 0.1329
+134 0.1324
+2075 0.1322
+420 0.1321
+418 0.1316
+415 0.1308
+1215 0.1307
+26 0.1305
+360 0.1302
+914 0.1290
+57 0.1290
+1038 0.1289
+584 0.1288
+2164 0.1287
+1153 0.1286
+421 0.1285
+1430 0.1279
+466 0.1276
+311 0.1271
+1431 0.1268
+1192 0.1266
+1098 0.1265
+1208 0.1265
+645 0.1264
+913 0.1262
+24 0.1259
+1488 0.1257
+1489 0.1249
+207 0.1249
+939 0.1248
+441 0.1246
+2069 0.1245
+1540 0.1245
+1849 0.1243
+633 0.1239
+362 0.1239
+1863 0.1236
+1322 0.1235
+1137 0.1234
+1097 0.1234
+51 0.1233
+1328 0.1228
+450 0.1228
+475 0.1226
+2120 0.1226
+527 0.1220
+681 0.1220
+402 0.1220
+297 0.1211
+1207 0.1205
+2021 0.1205
+99 0.1202
+1041 0.1201
+1378 0.1200
+1150 0.1198
+985 0.1195
+1973 0.1191
+1976 0.1189
+871 0.1188
+624 0.1184
+287 0.1183
+1963 0.1183
+857 0.1182
+1080 0.1181
+212 0.1179
+1918 0.1177
+1453 0.1174
+728 0.1173
+2035 0.1171
+642 0.1171
+73 0.1170
+220 0.1169
+1546 0.1168
+1907 0.1168
+529 0.1168
+783 0.1166
+586 0.1163
+745 0.1163
+884 0.1162
+2017 0.1161
+302 0.1160
+2068 0.1159
+265 0.1157
+949 0.1157
+2119 0.1152
+77 0.1148
+684 0.1146
+309 0.1144
+1210 0.1143
+1160 0.1143
+996 0.1142
+474 0.1141
+2083 0.1140
+570 0.1138
+250 0.1137
+16 0.1134
+1906 0.1134
+476 0.1133
+741 0.1131
+521 0.1130
+17 0.1129
+442 0.1123
+177 0.1122
+528 0.1121
+241 0.1120
+1920 0.1119
+338 0.1118
+162 0.1115
+1048 0.1113
+1327 0.1110
+393 0.1104
+2022 0.1100
+940 0.1100
+1272 0.1097
+983 0.1090
+856 0.1088
+497 0.1084
+798 0.1082
+27 0.1082
+588 0.1079
+263 0.1078
+755 0.1078
+1848 0.1075
+738 0.1075
+1025 0.1074
+644 0.1067
+262 0.1067
+969 0.1064
+366 0.1060
+1984 0.1058
+384 0.1057
+140 0.1056
+699 0.1052
+1152 0.1051
+986 0.1049
+1874 0.1044
+532 0.1043
+531 0.1042
+1485 0.1042
+1490 0.1042
+422 0.1025
+386 0.1024
+828 0.1021
+310 0.1019
+417 0.1017
+128 0.1016
+385 0.1014
+472 0.1011
+1173 0.1009
+1158 0.1006
+1566 0.1005
+883 0.1003
+416 0.1003
+473 0.0994
+2203 0.0991
+332 0.0989
+361 0.0988
+1905 0.0987
+1545 0.0987
+353 0.0986
+2132 0.0985
+530 0.0982
+1763 0.0982
+885 0.0980
+1819 0.0980
+1509 0.0979
+995 0.0979
+173 0.0972
+553 0.0971
+348 0.0967
+587 0.0967
+1040 0.0958
+104 0.0957
+505 0.0955
+992 0.0955
+929 0.0952
+997 0.0952
+78 0.0952
+2072 0.0947
+682 0.0946
+331 0.0941
+496 0.0940
+1487 0.0939
+643 0.0938
+218 0.0933
+827 0.0932
+79 0.0930
+498 0.0926
+169 0.0926
+41 0.0923
+1919 0.0920
+32 0.0919
+801 0.0919
+199 0.0918
+1961 0.0916
+2036 0.0915
+440 0.0915
+1266 0.0915
+702 0.0910
+1340 0.0906
+941 0.0904
+1061 0.0904
+2037 0.0904
+1046 0.0902
+561 0.0900
+928 0.0898
+554 0.0894
+873 0.0894
+403 0.0893
+180 0.0893
+1051 0.0892
+314 0.0891
+2076 0.0889
+58 0.0889
+2201 0.0888
+1974 0.0887
+991 0.0886
+1052 0.0885
+98 0.0884
+1151 0.0884
+1284 0.0883
+2086 0.0883
+938 0.0882
+1930 0.0881
+1095 0.0878
+1105 0.0874
+219 0.0874
+301 0.0873
+477 0.0870
+646 0.0870
+577 0.0866
+514 0.0864
+609 0.0864
+283 0.0864
+1229 0.0862
+2067 0.0858
+2130 0.0856
+1962 0.0855
+282 0.0852
+1042 0.0848
+337 0.0848
+1986 0.0846
+689 0.0844
+1985 0.0844
+2131 0.0843
+685 0.0837
+1652 0.0837
+533 0.0834
+1486 0.0833
+392 0.0831
+1270 0.0826
+2070 0.0824
+43 0.0824
+772 0.0824
+459 0.0823
+141 0.0822
+1541 0.0821
+2088 0.0819
+1217 0.0819
+2016 0.0816
+1931 0.0816
+28 0.0816
+2087 0.0815
+2015 0.0813
+2027 0.0805
+1975 0.0804
+616 0.0804
+465 0.0801
+286 0.0800
+2118 0.0797
+2038 0.0794
+221 0.0794
+333 0.0792
+552 0.0789
+589 0.0789
+1791 0.0788
+1096 0.0787
+1154 0.0785
+773 0.0781
+2014 0.0776
+80 0.0773
+2077 0.0772
+993 0.0772
+2071 0.0770
+449 0.0770
+759 0.0770
+139 0.0768
+135 0.0767
+42 0.0765
+1960 0.0764
+1383 0.0764
+2171 0.0763
+2039 0.0760
+1596 0.0759
+2066 0.0758
+829 0.0756
+2064 0.0754
+443 0.0751
+72 0.0751
+2084 0.0750
+608 0.0749
+874 0.0749
+349 0.0748
+2028 0.0747
+1847 0.0739
+284 0.0739
+408 0.0734
+1734 0.0734
+251 0.0734
+1904 0.0733
+336 0.0732
+298 0.0732
+799 0.0731
+771 0.0726
+2085 0.0724
+2040 0.0719
+208 0.0718
+927 0.0716
+391 0.0712
+138 0.0708
+1039 0.0708
+1329 0.0708
+253 0.0707
+29 0.0705
+826 0.0701
+665 0.0699
+2065 0.0698
+30 0.0695
+50 0.0694
+1384 0.0691
+178 0.0688
+1544 0.0687
+1050 0.0687
+666 0.0687
+2121 0.0686
+2207 0.0683
+61 0.0682
+610 0.0681
+800 0.0677
+1876 0.0673
+1601 0.0673
+266 0.0672
+1987 0.0671
+1108 0.0671
+817 0.0669
+237 0.0669
+387 0.0668
+2114 0.0666
+664 0.0666
+31 0.0666
+1049 0.0666
+2172 0.0664
+2128 0.0662
+1107 0.0661
+994 0.0659
+1323 0.0659
+44 0.0658
+1053 0.0657
+2168 0.0656
+1988 0.0654
+1452 0.0653
+1875 0.0652
+209 0.0652
+40 0.0651
+108 0.0651
+683 0.0648
+240 0.0647
+105 0.0645
+170 0.0643
+534 0.0643
+2013 0.0643
+383 0.0641
+2110 0.0641
+236 0.0641
+238 0.0641
+81 0.0640
+1899 0.0640
+2161 0.0639
+886 0.0639
+1542 0.0639
+161 0.0637
+330 0.0637
+626 0.0637
+198 0.0636
+1543 0.0635
+2122 0.0631
+555 0.0631
+478 0.0631
+504 0.0631
+1435 0.0630
+872 0.0630
+285 0.0629
+727 0.0626
+2111 0.0624
+350 0.0624
+390 0.0623
+936 0.0622
+1508 0.0621
+299 0.0619
+935 0.0618
+984 0.0617
+59 0.0617
+2063 0.0616
+352 0.0616
+930 0.0611
+448 0.0610
+281 0.0610
+1903 0.0610
+882 0.0609
+1602 0.0608
+815 0.0607
+520 0.0607
+254 0.0607
+63 0.0607
+495 0.0604
+62 0.0602
+300 0.0602
+672 0.0600
+1959 0.0599
+2089 0.0599
+1109 0.0596
+998 0.0596
+2109 0.0594
+2112 0.0592
+1846 0.0590
+252 0.0587
+335 0.0586
+1382 0.0585
+1102 0.0584
+2163 0.0582
+127 0.0579
+179 0.0578
+2235 0.0578
+716 0.0578
+388 0.0575
+1439 0.0575
+937 0.0573
+423 0.0571
+1161 0.0570
+774 0.0566
+106 0.0566
+351 0.0564
+107 0.0563
+1214 0.0559
+197 0.0557
+147 0.0555
+1932 0.0554
+1658 0.0552
+1790 0.0551
+2129 0.0550
+239 0.0550
+1678 0.0549
+1902 0.0549
+607 0.0548
+109 0.0547
+2115 0.0547
+210 0.0546
+439 0.0545
+86 0.0544
+628 0.0543
+744 0.0543
+715 0.0542
+334 0.0541
+2116 0.0539
+2060 0.0539
+1106 0.0539
+1764 0.0537
+721 0.0536
+87 0.0536
+460 0.0533
+499 0.0532
+444 0.0531
+2113 0.0530
+181 0.0530
+2160 0.0528
+142 0.0528
+2041 0.0527
+1326 0.0526
+1955 0.0526
+196 0.0526
+1954 0.0526
+632 0.0525
+1547 0.0524
+2012 0.0517
+114 0.0514
+1957 0.0514
+211 0.0512
+2170 0.0511
+97 0.0511
+816 0.0511
+551 0.0509
+1901 0.0508
+144 0.0508
+560 0.0505
+1958 0.0504
+145 0.0503
+389 0.0502
+110 0.0501
+367 0.0501
+2062 0.0500
+195 0.0499
+2010 0.0497
+136 0.0496
+1845 0.0496
+64 0.0493
+2011 0.0493
+1117 0.0492
+2169 0.0492
+1273 0.0492
+2234 0.0491
+404 0.0490
+1843 0.0489
+315 0.0489
+2117 0.0489
+1565 0.0488
+830 0.0488
+1820 0.0488
+590 0.0487
+49 0.0487
+2200 0.0486
+720 0.0485
+717 0.0485
+222 0.0484
+407 0.0483
+1900 0.0482
+82 0.0481
+2133 0.0481
+818 0.0480
+464 0.0478
+571 0.0475
+115 0.0475
+1440 0.0474
+1956 0.0473
+515 0.0472
+2204 0.0470
+159 0.0470
+137 0.0469
+667 0.0468
+722 0.0467
+71 0.0466
+2009 0.0465
+719 0.0463
+1708 0.0462
+611 0.0461
+942 0.0460
+2061 0.0460
+1597 0.0459
+782 0.0459
+2208 0.0458
+1600 0.0458
+987 0.0457
+1395 0.0456
+627 0.0454
+663 0.0453
+1621 0.0453
+1162 0.0451
+2151 0.0448
+447 0.0446
+45 0.0446
+1163 0.0446
+1211 0.0443
+405 0.0443
+881 0.0443
+1099 0.0443
+445 0.0441
+1228 0.0441
+171 0.0440
+2239 0.0440
+606 0.0439
+2152 0.0439
+1842 0.0438
+172 0.0438
+329 0.0437
+1598 0.0437
+775 0.0436
+2162 0.0435
+1005 0.0434
+1933 0.0433
+60 0.0433
+1898 0.0431
+647 0.0430
+1990 0.0429
+183 0.0429
+184 0.0429
+143 0.0428
+2042 0.0428
+718 0.0427
+2153 0.0426
+223 0.0426
+113 0.0425
+160 0.0424
+182 0.0424
+1653 0.0423
+2205 0.0422
+85 0.0422
+1989 0.0421
+837 0.0420
+770 0.0419
+1164 0.0418
+148 0.0417
+267 0.0417
+406 0.0417
+65 0.0416
+146 0.0414
+89 0.0412
+112 0.0412
+126 0.0412
+503 0.0412
+762 0.0412
+778 0.0411
+990 0.0411
+317 0.0410
+83 0.0408
+714 0.0407
+776 0.0406
+1789 0.0404
+1218 0.0404
+316 0.0403
+556 0.0403
+660 0.0403
+742 0.0400
+84 0.0400
+1877 0.0400
+368 0.0399
+88 0.0398
+934 0.0397
+225 0.0396
+116 0.0396
+2108 0.0396
+500 0.0395
+2206 0.0394
+48 0.0394
+880 0.0394
+1844 0.0393
+1283 0.0393
+96 0.0392
+1172 0.0391
+703 0.0390
+46 0.0389
+461 0.0389
+424 0.0388
+158 0.0387
+516 0.0386
+224 0.0386
+825 0.0385
+2173 0.0382
+661 0.0382
+875 0.0382
+1599 0.0382
+382 0.0381
+535 0.0380
+726 0.0379
+2154 0.0378
+761 0.0378
+479 0.0377
+47 0.0376
+662 0.0375
+280 0.0375
+1495 0.0374
+425 0.0373
+2159 0.0372
+1765 0.0370
+1787 0.0370
+1733 0.0368
+194 0.0367
+111 0.0366
+1934 0.0364
+2008 0.0363
+2043 0.0361
+235 0.0361
+494 0.0359
+1936 0.0359
+572 0.0359
+777 0.0357
+550 0.0356
+1821 0.0355
+268 0.0355
+576 0.0355
+2059 0.0354
+269 0.0354
+1379 0.0353
+2236 0.0352
+446 0.0352
+760 0.0352
+615 0.0351
+2090 0.0348
+879 0.0348
+70 0.0347
+605 0.0347
+2106 0.0347
+438 0.0346
+2156 0.0345
+1788 0.0343
+2150 0.0343
+1992 0.0342
+462 0.0342
+463 0.0341
+2107 0.0340
+369 0.0339
+1620 0.0339
+2189 0.0339
+149 0.0339
+2155 0.0337
+887 0.0337
+688 0.0335
+501 0.0333
+1110 0.0333
+480 0.0332
+2233 0.0332
+117 0.0332
+1713 0.0331
+2044 0.0331
+125 0.0330
+1709 0.0330
+1991 0.0329
+157 0.0329
+1677 0.0329
+831 0.0328
+659 0.0327
+1935 0.0327
+2157 0.0326
+668 0.0326
+2158 0.0326
+779 0.0324
+1219 0.0320
+1491 0.0319
+591 0.0319
+1732 0.0317
+1157 0.0317
+743 0.0317
+517 0.0317
+723 0.0316
+612 0.0315
+686 0.0314
+1657 0.0314
+1879 0.0312
+574 0.0312
+519 0.0312
+2267 0.0312
+2199 0.0311
+832 0.0309
+2198 0.0309
+1507 0.0308
+2190 0.0307
+518 0.0306
+705 0.0306
+1731 0.0306
+1654 0.0304
+1564 0.0301
+1953 0.0300
+1165 0.0300
+185 0.0300
+704 0.0300
+833 0.0299
+1878 0.0297
+502 0.0295
+1054 0.0295
+1045 0.0293
+537 0.0293
+559 0.0292
+1220 0.0292
+2238 0.0291
+893 0.0290
+1786 0.0290
+671 0.0289
+629 0.0287
+481 0.0286
+557 0.0285
+592 0.0285
+124 0.0285
+649 0.0284
+1656 0.0282
+370 0.0282
+648 0.0282
+536 0.0281
+493 0.0281
+558 0.0280
+1676 0.0278
+593 0.0278
+888 0.0275
+549 0.0275
+706 0.0274
+2237 0.0274
+573 0.0272
+1339 0.0271
+69 0.0271
+2091 0.0271
+834 0.0270
+2263 0.0270
+66 0.0269
+669 0.0269
+1619 0.0269
+1267 0.0268
+95 0.0265
+1655 0.0264
+1841 0.0264
+1060 0.0264
+999 0.0264
+613 0.0263
+90 0.0263
+604 0.0263
+318 0.0261
+650 0.0259
+1714 0.0257
+603 0.0256
+1221 0.0255
+1766 0.0254
+118 0.0254
+631 0.0253
+1880 0.0252
+68 0.0251
+575 0.0250
+1730 0.0249
+1269 0.0249
+1710 0.0248
+724 0.0248
+931 0.0246
+2264 0.0245
+1897 0.0245
+2092 0.0244
+725 0.0244
+614 0.0243
+670 0.0243
+538 0.0243
+426 0.0243
+824 0.0242
+1822 0.0241
+1993 0.0241
+67 0.0240
+2149 0.0240
+1043 0.0239
+193 0.0238
+328 0.0238
+823 0.0237
+763 0.0236
+1438 0.0236
+835 0.0236
+150 0.0235
+1675 0.0235
+1451 0.0235
+780 0.0234
+270 0.0234
+1937 0.0234
+1274 0.0234
+1381 0.0234
+1881 0.0233
+943 0.0233
+658 0.0233
+1155 0.0232
+381 0.0232
+2191 0.0230
+2192 0.0229
+2197 0.0228
+279 0.0228
+186 0.0228
+427 0.0228
+94 0.0227
+2134 0.0225
+781 0.0225
+1171 0.0222
+1116 0.0221
+1330 0.0220
+713 0.0219
+836 0.0219
+1441 0.0218
+687 0.0218
+1769 0.0218
+1823 0.0218
+1563 0.0216
+226 0.0216
+2232 0.0213
+948 0.0213
+769 0.0213
+1767 0.0213
+1659 0.0212
+1494 0.0211
+819 0.0210
+1824 0.0210
+234 0.0209
+482 0.0209
+547 0.0208
+2265 0.0208
+889 0.0207
+602 0.0207
+2194 0.0206
+1275 0.0205
+1712 0.0205
+890 0.0204
+1952 0.0204
+878 0.0204
+630 0.0204
+1394 0.0203
+594 0.0203
+2188 0.0201
+1385 0.0199
+2193 0.0199
+437 0.0199
+1711 0.0197
+2195 0.0197
+119 0.0197
+1825 0.0197
+2007 0.0196
+2148 0.0195
+156 0.0195
+891 0.0194
+1785 0.0193
+1618 0.0193
+2262 0.0193
+492 0.0191
+944 0.0190
+1276 0.0189
+2266 0.0189
+2045 0.0189
+123 0.0188
+1729 0.0188
+227 0.0188
+1101 0.0188
+2196 0.0187
+151 0.0187
+548 0.0186
+822 0.0184
+371 0.0184
+1674 0.0184
+380 0.0184
+327 0.0182
+2058 0.0182
+2135 0.0181
+230 0.0181
+275 0.0179
+539 0.0178
+91 0.0178
+1770 0.0177
+1768 0.0177
+323 0.0177
+1227 0.0176
+188 0.0176
+152 0.0176
+319 0.0176
+651 0.0175
+271 0.0175
+1213 0.0174
+278 0.0174
+892 0.0173
+2224 0.0173
+2240 0.0173
+379 0.0173
+92 0.0172
+768 0.0172
+376 0.0170
+1506 0.0169
+276 0.0169
+120 0.0168
+324 0.0168
+1551 0.0168
+1004 0.0167
+2105 0.0167
+187 0.0166
+325 0.0166
+1994 0.0166
+375 0.0166
+321 0.0166
+326 0.0165
+229 0.0165
+2209 0.0165
+483 0.0165
+436 0.0164
+2225 0.0164
+1166 0.0164
+274 0.0163
+189 0.0163
+272 0.0162
+540 0.0162
+490 0.0162
+2174 0.0162
+876 0.0162
+1436 0.0161
+2290 0.0161
+428 0.0161
+322 0.0161
+1000 0.0161
+946 0.0160
+933 0.0160
+947 0.0160
+1111 0.0159
+2223 0.0158
+93 0.0158
+1055 0.0158
+1325 0.0158
+377 0.0158
+595 0.0157
+1059 0.0157
+273 0.0157
+232 0.0157
+1331 0.0157
+1552 0.0157
+767 0.0157
+1840 0.0157
+491 0.0157
+373 0.0157
+2187 0.0157
+378 0.0157
+228 0.0157
+155 0.0156
+231 0.0156
+433 0.0156
+945 0.0156
+320 0.0155
+122 0.0155
+2231 0.0154
+484 0.0152
+1222 0.0152
+1324 0.0151
+277 0.0151
+374 0.0151
+233 0.0150
+1282 0.0150
+435 0.0150
+154 0.0149
+431 0.0149
+190 0.0147
+2291 0.0147
+1115 0.0146
+429 0.0146
+1562 0.0146
+1001 0.0146
+432 0.0145
+1603 0.0145
+372 0.0145
+153 0.0144
+1056 0.0144
+1883 0.0143
+1896 0.0142
+192 0.0142
+1882 0.0142
+1673 0.0141
+430 0.0141
+1496 0.0141
+2241 0.0141
+546 0.0140
+1003 0.0140
+601 0.0140
+1380 0.0139
+2288 0.0139
+2261 0.0139
+121 0.0138
+1100 0.0138
+1058 0.0138
+1332 0.0137
+434 0.0136
+707 0.0136
+489 0.0136
+191 0.0136
+1212 0.0136
+1277 0.0136
+2226 0.0135
+2227 0.0135
+2093 0.0135
+1617 0.0134
+712 0.0134
+989 0.0134
+488 0.0134
+988 0.0133
+1437 0.0133
+2228 0.0133
+657 0.0131
+1826 0.0131
+710 0.0130
+596 0.0129
+1338 0.0128
+1002 0.0128
+1771 0.0127
+1112 0.0127
+541 0.0126
+764 0.0126
+1114 0.0126
+1450 0.0126
+652 0.0125
+542 0.0125
+1938 0.0125
+485 0.0124
+1113 0.0123
+766 0.0122
+543 0.0122
+2229 0.0122
+1057 0.0122
+486 0.0121
+2175 0.0121
+1170 0.0120
+545 0.0119
+1548 0.0119
+711 0.0118
+2268 0.0118
+487 0.0118
+655 0.0118
+1493 0.0117
+656 0.0116
+544 0.0115
+600 0.0114
+1044 0.0113
+2230 0.0112
+877 0.0112
+2289 0.0112
+2254 0.0112
+1386 0.0111
+1616 0.0111
+599 0.0110
+1672 0.0110
+2136 0.0109
+820 0.0109
+2222 0.0108
+1728 0.0108
+1550 0.0108
+2287 0.0107
+1827 0.0107
+598 0.0107
+1333 0.0107
+1561 0.0106
+1156 0.0106
+821 0.0106
+2210 0.0105
+2286 0.0105
+1167 0.0105
+1505 0.0105
+653 0.0104
+932 0.0104
+1169 0.0104
+654 0.0104
+1226 0.0103
+1607 0.0103
+1939 0.0103
+1492 0.0102
+1784 0.0102
+1387 0.0102
+2186 0.0101
+2046 0.0101
+1223 0.0100
+1442 0.0100
+2255 0.0100
+1168 0.0099
+2260 0.0099
+708 0.0098
+1268 0.0098
+2104 0.0096
+2147 0.0096
+1278 0.0094
+709 0.0094
+1560 0.0093
+597 0.0093
+1715 0.0093
+1884 0.0091
+1225 0.0090
+1281 0.0090
+765 0.0089
+1839 0.0089
+1393 0.0088
+2057 0.0087
+2006 0.0087
+1504 0.0087
+1388 0.0086
+2253 0.0086
+2256 0.0084
+1449 0.0084
+1606 0.0083
+1497 0.0083
+2221 0.0081
+1224 0.0081
+1772 0.0081
+1334 0.0080
+1549 0.0080
+2258 0.0080
+1727 0.0080
+2309 0.0079
+1660 0.0079
+1783 0.0078
+1337 0.0078
+1940 0.0078
+2311 0.0078
+1604 0.0076
+2257 0.0076
+2307 0.0076
+1392 0.0075
+1553 0.0075
+2259 0.0074
+1608 0.0073
+1444 0.0073
+1280 0.0073
+1448 0.0072
+1995 0.0072
+1279 0.0072
+1615 0.0072
+1443 0.0071
+2308 0.0070
+2310 0.0069
+1503 0.0069
+1663 0.0069
+2285 0.0067
+2284 0.0067
+1671 0.0066
+1336 0.0066
+1389 0.0065
+1664 0.0065
+2176 0.0065
+1335 0.0064
+1828 0.0064
+1773 0.0064
+1716 0.0063
+2211 0.0062
+2283 0.0062
+1391 0.0062
+1885 0.0061
+2220 0.0061
+2280 0.0061
+2137 0.0061
+1554 0.0060
+1445 0.0060
+2269 0.0059
+1390 0.0059
+2094 0.0059
+1498 0.0059
+1447 0.0058
+2282 0.0058
+1726 0.0058
+1951 0.0058
+2252 0.0057
+1605 0.0057
+1609 0.0057
+2292 0.0057
+1446 0.0057
+2242 0.0056
+1838 0.0055
+2185 0.0055
+1610 0.0054
+1895 0.0054
+2281 0.0054
+1500 0.0054
+1499 0.0054
+2279 0.0053
+2251 0.0052
+1614 0.0052
+2306 0.0052
+2302 0.0051
+2305 0.0051
+1559 0.0051
+1665 0.0050
+1666 0.0050
+1555 0.0050
+2325 0.0050
+1558 0.0050
+2324 0.0049
+2278 0.0049
+2301 0.0049
+2250 0.0048
+1670 0.0048
+1613 0.0047
+2323 0.0047
+1661 0.0047
+1829 0.0047
+2146 0.0047
+2304 0.0047
+1556 0.0046
+1718 0.0046
+1719 0.0046
+1502 0.0046
+2005 0.0045
+2103 0.0045
+2303 0.0045
+1996 0.0045
+2277 0.0045
+2056 0.0045
+1720 0.0045
+1501 0.0045
+2300 0.0044
+1725 0.0044
+2047 0.0044
+1722 0.0043
+2336 0.0043
+1612 0.0043
+1611 0.0043
+1721 0.0043
+1662 0.0042
+2344 0.0042
+1557 0.0042
+1667 0.0041
+1669 0.0041
+2327 0.0041
+2326 0.0040
+2318 0.0040
+2320 0.0040
+1717 0.0040
+2322 0.0040
+2332 0.0039
+2312 0.0039
+2321 0.0039
+1782 0.0039
+1724 0.0039
+2319 0.0039
+2337 0.0039
+2177 0.0039
+2345 0.0039
+2212 0.0039
+2333 0.0038
+2350 0.0038
+1774 0.0038
+2349 0.0038
+2001 0.0038
+1894 0.0038
+2052 0.0038
+1941 0.0037
+2293 0.0037
+2219 0.0037
+2249 0.0037
+2343 0.0037
+2276 0.0037
+1777 0.0037
+2335 0.0036
+1776 0.0036
+1950 0.0036
+2334 0.0036
+1668 0.0036
+1946 0.0036
+1775 0.0036
+2184 0.0036
+2346 0.0036
+2247 0.0035
+1947 0.0035
+2216 0.0035
+1778 0.0035
+2248 0.0035
+2002 0.0035
+2003 0.0035
+2270 0.0035
+1837 0.0035
+2055 0.0034
+2004 0.0034
+2342 0.0034
+2218 0.0034
+1780 0.0034
+1891 0.0034
+2000 0.0034
+2181 0.0034
+2183 0.0034
+2298 0.0034
+1892 0.0034
+2299 0.0034
+2328 0.0033
+1834 0.0033
+2138 0.0033
+1779 0.0033
+2317 0.0033
+2051 0.0033
+1835 0.0033
+2099 0.0033
+1944 0.0033
+2182 0.0033
+1833 0.0033
+1890 0.0033
+1723 0.0033
+1893 0.0032
+2339 0.0032
+1945 0.0032
+2145 0.0032
+2142 0.0032
+2100 0.0032
+2275 0.0032
+2217 0.0032
+2098 0.0032
+2351 0.0032
+2338 0.0032
+1836 0.0032
+2101 0.0031
+1781 0.0031
+1831 0.0031
+2243 0.0031
+1832 0.0031
+2053 0.0031
+2274 0.0031
+1889 0.0031
+2143 0.0031
+1949 0.0031
+2144 0.0031
+2102 0.0031
+2331 0.0031
+1886 0.0031
+2297 0.0031
+2054 0.0031
+2341 0.0030
+2313 0.0030
+2348 0.0030
+2316 0.0030
+1999 0.0030
+1997 0.0030
+2329 0.0030
+2097 0.0029
+2050 0.0029
+2347 0.0028
+2095 0.0028
+1948 0.0028
+2141 0.0028
+1942 0.0028
+2330 0.0027
+2180 0.0027
+2048 0.0027
+1998 0.0027
+2213 0.0027
+1888 0.0026
+2315 0.0026
+2294 0.0026
+2340 0.0026
+2246 0.0026
+2215 0.0026
+1943 0.0026
+1887 0.0025
+2271 0.0025
+1830 0.0025
+2244 0.0025
+2273 0.0025
+2295 0.0025
+2049 0.0025
+2314 0.0024
+2272 0.0024
+2296 0.0024
+2178 0.0023
+2140 0.0022
+2096 0.0022
+2139 0.0021
+2245 0.0021
+2214 0.0021
+2179 0.0021
 Finding peak:
 1525
 1294
-1008
-1425
-1642
+1289
+1533
+1260
 1855
-1569
-11
 964
-303
-205
-2166
-735
-862
-1271
-2104
+11
+2081
+974
+509
+304
+1377
+312
+939
+1898

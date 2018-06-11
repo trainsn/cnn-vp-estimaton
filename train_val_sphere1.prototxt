@@ -26,10 +26,10 @@ layer {
   top: "data"
   top: "label"
   data_param {
-    source: "/media/cad/0C66F84266F82DD8/vp_lmdb/bonsai-new/img_train_lmdb"
+    #source: "/media/cad/0C66F84266F82DD8/vp_lmdb/bonsai-new/img_train_lmdb"
     #source: "/home/cad/disk/linux/RenderForCNN-master/data/fish/test1/img_test_lmdb"
     #source: "/media/cad/Elements/vp_data/img_test_lmdb"
-    #source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/fish/img_test_lmdb"
+    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/tree/img_test_lmdb"
     backend: LMDB
     batch_size: 448
   }
@@ -337,12 +337,12 @@ layer {
 
 layer {
   name: "loss_sphere-new"
-  type: "SoftmaxWithSphereLoss"
-  #type: "SoftmaxWithLoss"
-  softmax_with_sphere_loss_param {
-    bandwidth: 2
-    sigma: 2
-  }
+  #type: "SoftmaxWithSphereLoss"
+  type: "SoftmaxWithLoss"
+  #softmax_with_sphere_loss_param {
+  #  bandwidth: 2
+  #  sigma: 2
+  #}
   bottom: "fc8-new"
   bottom: "label"
   top: "loss_sphere-new"

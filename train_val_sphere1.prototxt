@@ -5,7 +5,7 @@ layer {
   top: "data"
   top: "label"
   data_param {
-    source: "/media/cad/3fafa74e-c460-4512-8fb2-4a08ea3c1ef7/vp_lmdb/head-color/img_train_lmdb"
+    source: "/media/cad/0C66F84266F82DD8/vp_lmdb/vessel/img_train_lmdb"
     #source: "/media/cad/Elements/vp_data/head/img_train_lmdb"
     #source: "/media/cad/3fafa74e-c460-4512-8fb2-4a08ea3c1ef7/vp_lmdb/head-color/img_train_lmdb"
     #source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/vismale-color/img_train_lmdb"

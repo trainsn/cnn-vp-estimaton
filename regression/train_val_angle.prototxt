@@ -4,11 +4,10 @@ layers {
   type: DATA
   top: "data"
   data_param {
-    #source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/vessel_angle/img_train_image"
+    #source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/head_angle/img_train_image"
     source: "/media/cad/0C66F84266F82DD8/vp_lmdb/vessel/img_train_lmdb"
     backend: LMDB
-    batch_size: 448
-
+    batch_size: 512
   }
   transform_param {
     crop_size: 227
@@ -23,10 +22,10 @@ layers {
   type: DATA
   top: "label"
   data_param {
-    #source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/vessel_angle/img_train_label"
-    source: "/media/cad/0C66F84266F82DD8/vp_lmdb/vessel/label_train_lmdb"
+    #source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/head_angle/img_train_label"
+    source: "/media/cad/0C66F84266F82DD8/vp_lmdb/vessel/label_train_lmdb_regression"
     backend: LMDB
-    batch_size: 448
+    batch_size: 512
   }
   include: { phase: TRAIN }
 }
@@ -38,7 +37,6 @@ layers {
     source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/vessel/img_test_lmdb"
     backend: LMDB
     batch_size: 300
-
   }
   transform_param {
     crop_size: 227
@@ -52,7 +50,7 @@ layers {
   type: DATA
   top: "label"
   data_param {
-    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/vessel/label_test_lmdb"
+    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/vessel/label_test_lmdb_regression"
     backend: LMDB
     batch_size: 300
   }
@@ -77,18 +75,14 @@ layers {
   type: CONVOLUTION
   bottom: "data"
   top: "conv1"
-  blobs_lr: 1
-  blobs_lr: 1
-  weight_decay: 1
+  blobs_lr: 0
+  blobs_lr: 0
+  weight_decay: 0
   weight_decay: 0
   convolution_param {
     num_output: 96
     kernel_size: 11
     stride: 4
-    weight_filler {
-      type: "gaussian"
-      std: 0.01
-    }
   }
 }
 layers {
@@ -124,18 +118,14 @@ layers {
   type: CONVOLUTION
   bottom: "norm1"
   top: "conv2"
-  blobs_lr: 1
-  blobs_lr: 1
-  weight_decay: 1
+  blobs_lr: 0
+  blobs_lr: 0
+  weight_decay: 0
   weight_decay: 0
   convolution_param {
     num_output: 256
     pad: 2
     kernel_size: 5
-    weight_filler {
-      type: "gaussian"
-      std: 0.01
-    }
     group: 2
   }
 }
@@ -172,18 +162,14 @@ layers {
   type: CONVOLUTION
   bottom: "norm2"
   top: "conv3"
-  blobs_lr: 1
-  blobs_lr: 1
-  weight_decay: 1
+  blobs_lr: 0
+  blobs_lr: 0
+  weight_decay: 0
   weight_decay: 0
   convolution_param {
     num_output: 384
     pad: 1
     kernel_size: 3
-    weight_filler {
-      type: "gaussian"
-      std: 0.01
-    }
   }
 }
 layers {
@@ -193,10 +179,10 @@ layers {
   top: "conv3"
 }
 layers {
-  name: "conv4-new"
+  name: " conv4"
   type: CONVOLUTION
   bottom: "conv3"
-  top: "conv4-new"
+  top: " conv4"
   blobs_lr: 1
   blobs_lr: 1
   weight_decay: 1
@@ -205,24 +191,20 @@ layers {
     num_output: 384
     pad: 1
     kernel_size: 3
-    weight_filler {
-      type: "gaussian"
-      std: 0.01
-    }
     group: 2
   }
 }
 layers {
   name: "relu4"
   type: RELU
-  bottom: "conv4-new"
-  top: "conv4-new"
+  bottom: " conv4"
+  top: " conv4"
 }
 layers {
-  name: "conv5-new"
+  name: " conv5"
   type: CONVOLUTION
-  bottom: "conv4-new"
-  top: "conv5-new"
+  bottom: " conv4"
+  top: " conv5"
   blobs_lr: 1
   blobs_lr: 1
   weight_decay: 1
@@ -231,23 +213,19 @@ layers {
     num_output: 256
     pad: 1
     kernel_size: 3
-    weight_filler {
-      type: "gaussian"
-      std: 0.01
-    }
     group: 2
   }
 }
 layers {
   name: "relu5"
   type: RELU
-  bottom: "conv5-new"
-  top: "conv5-new"
+  bottom: " conv5"
+  top: " conv5"
 }
 layers {
   name: "pool5"
   type: POOLING
-  bottom: "conv5-new"
+  bottom: " conv5"
   top: "pool5"
   pooling_param {
     pool: MAX
@@ -256,69 +234,57 @@ layers {
   }
 }
 layers {
-  name: "fc6-new"
+  name: " fc6"
   type: INNER_PRODUCT
   bottom: "pool5"
-  top: "fc6-new"
+  top: " fc6"
   blobs_lr: 1
   blobs_lr: 1
   weight_decay: 1
   weight_decay: 0
   inner_product_param {
     num_output: 4096
-    weight_filler {
-      type: "gaussian"
-      std: 0.01
-    }
   }
 }
 layers {
   name: "relu6"
   type: RELU
-  bottom: "fc6-new"
-  top: "fc6-new"
+  bottom: " fc6"
+  top: " fc6"
 }
 layers {
   name: "drop6"
   type: DROPOUT
-  bottom: "fc6-new"
-  top: "fc6-new"
+  bottom: " fc6"
+  top: " fc6"
   dropout_param {
     dropout_ratio: 0.5
   }
 }
 layers {
-  name: "fc7-new"
+  name: " fc7"
   type: INNER_PRODUCT
-  bottom: "fc6-new"
-  top: "fc7-new"
+  bottom: " fc6"
+  top: " fc7"
   blobs_lr: 1
   blobs_lr: 1
   weight_decay: 1
   weight_decay: 0
   inner_product_param {
     num_output: 4096
-    weight_filler {
-      type: "gaussian"
-      std: 0.01
-    }
-    bias_filler {
-      type: "constant"
-      value: 0
-    }
   }
 }
 layers {
   name: "relu7"
   type: RELU
-  bottom: "fc7-new"
-  top: "fc7-new"
+  bottom: " fc7"
+  top: " fc7"
 }
 layers {
   name: "drop7"
   type: DROPOUT
-  bottom: "fc7-new"
-  top: "fc7-new"
+  bottom: " fc7"
+  top: " fc7"
   dropout_param {
     dropout_ratio: 0.5
   }
@@ -327,14 +293,14 @@ layers {
 layers {
   name: "fc-azimuth-new"
   type: INNER_PRODUCT
-  bottom: "fc7-new"
+  bottom: " fc7"
   top: "fc-azimuth-new"
   blobs_lr: 1
   blobs_lr: 1
   weight_decay: 1
   weight_decay: 0
   inner_product_param {
-    num_output: 360
+    num_output: 1
     weight_filler {
       type: "gaussian"
       std: 0.01
@@ -347,44 +313,36 @@ layers {
 }
 layers {
   name: "loss_azimuth-new"
-  type: SOFTMAX_WITH_VIEW_LOSS
-  softmax_with_view_loss_param {
-    bandwidth: 15
-    sigma: 5
-    pos_weight: 1
-    neg_weight: 0
-    period: 360
-  }
+  type: EUCLIDEAN_LOSS
   bottom: "fc-azimuth-new"
   bottom: "label_azimuth"
   top: "loss_azimuth-new"
   loss_weight: 1
 }
-layers {
-  name: "accuracy_azimuth"
-  type: ACCURACY_VIEW
-  bottom: "fc-azimuth-new"
-  bottom: "label_azimuth"
-  top: "accuracy_azimuth"
-  accuracy_view_param {
-    tol_angle: 5
-    period: 360
-  }
-  include: { phase: TEST }
-}
+#layers {
+#  name: "accuracy_azimuth"
+#  type: ACCURACY_VIEW
+#  bottom: "fc-azimuth-new"
+#  bottom: "label_azimuth"
+#  top: "accuracy_azimuth"
+#  accuracy_view_param {
+#    tol_angle: 5
+#    period: 360
+#  }
+#}
 
 
 layers {
   name: "fc-elevation-new"
   type: INNER_PRODUCT
-  bottom: "fc7-new"
+  bottom: " fc7"
   top: "fc-elevation-new"
   blobs_lr: 1
   blobs_lr: 1
   weight_decay: 1
   weight_decay: 0
   inner_product_param {
-    num_output: 180
+    num_output: 1
     weight_filler {
       type: "gaussian"
       std: 0.01
@@ -397,32 +355,24 @@ layers {
 }
 layers {
   name: "loss_elevation-new"
-  type: SOFTMAX_WITH_VIEW_LOSS
-  softmax_with_view_loss_param {
-    bandwidth: 5
-    sigma: 5
-    pos_weight: 1
-    neg_weight: 0
-    period: 180
-  }
+  type: EUCLIDEAN_LOSS
   bottom: "fc-elevation-new"
   bottom: "label_elevation"
   top: "loss_elevation-new"
   loss_weight: 1
 }
 
-layers {
-  name: "accuracy_elevation"
-  type: ACCURACY_VIEW
-  bottom: "fc-elevation-new"
-  bottom: "label_elevation"
-  top: "accuracy_elevation"
-  accuracy_view_param {
-    tol_angle: 5
-    period: 180
-  }
-  include: { phase: TEST }
-}
+#layers {
+#  name: "accuracy_elevation"
+#  type: ACCURACY_VIEW
+#  bottom: "fc-elevation-new"
+#  bottom: "label_elevation"
+#  top: "accuracy_elevation"
+#  accuracy_view_param {
+#    tol_angle: 5
+#    period: 180
+#  }
+#}
 
 layers {
   name: "accuracy_class"

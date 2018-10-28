@@ -1,0 +1,15 @@
+base_lr: 0.02
+display:10
+max_iter: 18000
+lr_policy: "poly"
+power: 1
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 2500
+snapshot_prefix: "resnet50_cvgj"
+random_seed: 0
+net: "/home/shineng/vp_train/resnet_split/train_fish.prototxt"
+#test_initialization: false
+iter_size: 16
+solver_mode: GPU
+debug_info: false

@@ -1,38 +1,77 @@
-name: "RenderForCNN"
 layer {
   name: "data"
   type: "Data"
   top: "data"
-  top: "label"
   data_param {
-    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/head/img_train_lmdb"
+    source: "/home/shineng/vp_lmdb/engine/img_train_lmdb"
     backend: LMDB
-    batch_size: 16
+    batch_size:24
   }
   transform_param {
     crop_size: 227
     mirror: false
   }
   include: { phase: TRAIN }
-
 }
+
+layer {
+  name: "label"
+  type: "Data"
+  top: "label"
+  data_param {
+    #source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/vessel_angle/img_train_label"
+    source: "/home/shineng/vp_lmdb/engine/img_train_lmdb_label"
+    backend: LMDB
+    batch_size: 24
+  }
+  include: { phase: TRAIN }
+}
+
 layer {
   name: "data"
   type: "Data"
   top: "data"
-  top: "label"
   data_param {
-    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/head/img_test_lmdb"
+    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/engine/img_test_lmdb"
     backend: LMDB
-    batch_size: 16
+    batch_size:24
   }
   transform_param {
     crop_size: 227
     mirror: false
-
   }
   include: { phase: TEST }
 }
+
+layer {
+  name: "label"
+  type: "Data"
+  top: "label"
+  data_param {
+    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/engine/label_test_lmdb"
+    #source: "/home/shineng/vp_lmdb/engine/img_train_lmdb_label"
+    backend: LMDB
+    batch_size: 24
+  }
+  include: { phase: TEST }
+}
+
+layer {
+  name: "labe-slice"
+  type: "Slice"
+  bottom: "label"
+  top: "label_class"
+# if not engine
+  top: "label_elevation"
+  top: "label_azimuth"  
+  slice_param {
+    slice_dim: 1
+    slice_point: 1
+    slice_point: 2
+  }
+}
+
+
 layer {
   name: "data_bn"
   type: "BatchNorm"
@@ -3335,11 +3374,12 @@ layer {
     global_pooling: true
   }
 }
+
 layer {
-  name: "fc8-new"
+  name: "fc-azimuth-new"
   type: "InnerProduct"
   bottom: "global_pool"
-  top: "fc8-new"
+  top: "fc-azimuth-new"
   param {
     lr_mult: 1.0
     decay_mult: 1.0
@@ -3349,8 +3389,7 @@ layer {
     decay_mult: 1.0
   }
   inner_product_param {
-    num_output: 2352
-    #num_output: 1176
+    num_output: 360
     weight_filler {
       type: "gaussian"
       std: 0.01
@@ -3361,179 +3400,92 @@ layer {
     }
   }
 }
-
 layer {
-  name: "loss_sphere-new"
-  type: "SoftmaxWithSphereLoss"
-  #type: "SoftmaxWithLoss"
-  softmax_with_sphere_loss_param {
-    bandwidth: 2
-    sigma: 2
+  name: "loss_azimuth-new"
+  type: "SoftmaxWithViewLoss"
+  softmax_with_view_loss_param {
+    bandwidth: 15
+    sigma: 5
+    pos_weight: 1
+    neg_weight: 0
+    period: 360
   }
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "loss_sphere-new"
-  #loss_weight: 1
-  #include: { phase: TRAIN }
+  bottom: "fc-azimuth-new"
+  bottom: "label_azimuth"
+  top: "loss_azimuth-new"
+  loss_weight: 1
 }
 layer {
-  name: "accuracy_sphere1"
-  #type: "AccuracySphere"
-  type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere1"
-  #accuracy_param {
-    #tol_angle: 1
-    #top_k : 5 
-  #}
-  include: { phase: TEST }
-}
-layer {
-  name: "accuracy_sphere2"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere2"
-  accuracy_sphere_param {
-    tol_angle: 2
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere3"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere3"
-  accuracy_sphere_param {
-    tol_angle: 3
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere4"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere4"
-  accuracy_sphere_param {
-    tol_angle: 4
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere5"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere5"
-  accuracy_sphere_param {
+  name: "accuracy_azimuth"
+  type: "AccuracyView"
+  bottom: "fc-azimuth-new"
+  bottom: "label_azimuth"
+  top: "accuracy_azimuth"
+  accuracy_view_param {
     tol_angle: 5
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere6"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere6"
-  accuracy_sphere_param {
-    tol_angle: 6
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere7"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere7"
-  accuracy_sphere_param {
-    tol_angle: 7
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere8"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere8"
-  accuracy_sphere_param {
-    tol_angle: 8
-    #top_k : 5 
+    period: 360
   }
   include: { phase: TEST }
 }
 
 
 layer {
-  name: "accuracy_sphere15"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere15"
-  accuracy_sphere_param {
-    tol_angle: 15
-    #top_k : 5 
+  name: "fc-elevation-new"
+  type: "InnerProduct"
+  bottom: "global_pool"
+  top: "fc-elevation-new"
+  param {
+    lr_mult: 1.0
+    decay_mult: 1.0
+  }
+  param {
+    lr_mult: 2.0
+    decay_mult: 1.0
+  }
+  inner_product_param {
+    num_output: 180
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+layer {
+  name: "loss_elevation-new"
+  type: "SoftmaxWithViewLoss"
+  softmax_with_view_loss_param {
+    bandwidth: 5
+    sigma: 5
+    pos_weight: 1
+    neg_weight: 0
+    period: 180
+  }
+  bottom: "fc-elevation-new"
+  bottom: "label_elevation"
+  top: "loss_elevation-new"
+  loss_weight: 1
+}
+layer {
+  name: "accuracy_elevation"
+  type: "AccuracyView"
+  bottom: "fc-elevation-new"
+  bottom: "label_elevation"
+  top: "accuracy_elevation"
+  accuracy_view_param {
+    tol_angle: 5
+    period: 180
   }
   include: { phase: TEST }
 }
 
 layer {
-  name: "accuracy_top5"
+  name: "Accuracy_class"
   type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_top5"
-  accuracy_param {
-    top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_top10"
-  type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_top10"
-  accuracy_param {
-    top_k : 10 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_top13"
-  type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_top13"
-  accuracy_param {
-    top_k : 13 
-  }
-  include: { phase: TEST }
+  bottom: "label_class"
+  bottom: "label_class"
+  top: "Accuracy_class"
 }

@@ -1,37 +1,8 @@
-name: "RenderForCNN"
 layer {
   name: "data"
-  type: "Data"
+  type: "Input"
   top: "data"
-  top: "label"
-  data_param {
-    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/head/img_train_lmdb"
-    backend: LMDB
-    batch_size: 16
-  }
-  transform_param {
-    crop_size: 227
-    mirror: false
-  }
-  include: { phase: TRAIN }
-
-}
-layer {
-  name: "data"
-  type: "Data"
-  top: "data"
-  top: "label"
-  data_param {
-    source: "/home/cad/disk/linux/RenderForCNN-master/data/vp_lmdb/head/img_test_lmdb"
-    backend: LMDB
-    batch_size: 16
-  }
-  transform_param {
-    crop_size: 227
-    mirror: false
-
-  }
-  include: { phase: TEST }
+  input_param { shape: { dim: 1 dim: 3 dim: 227 dim: 227 } }
 }
 layer {
   name: "data_bn"
@@ -3350,7 +3321,6 @@ layer {
   }
   inner_product_param {
     num_output: 2352
-    #num_output: 1176
     weight_filler {
       type: "gaussian"
       std: 0.01
@@ -3361,179 +3331,9 @@ layer {
     }
   }
 }
-
 layer {
-  name: "loss_sphere-new"
-  type: "SoftmaxWithSphereLoss"
-  #type: "SoftmaxWithLoss"
-  softmax_with_sphere_loss_param {
-    bandwidth: 2
-    sigma: 2
-  }
+  name: "prob"
+  type: "Softmax"
   bottom: "fc8-new"
-  bottom: "label"
-  top: "loss_sphere-new"
-  #loss_weight: 1
-  #include: { phase: TRAIN }
-}
-layer {
-  name: "accuracy_sphere1"
-  #type: "AccuracySphere"
-  type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere1"
-  #accuracy_param {
-    #tol_angle: 1
-    #top_k : 5 
-  #}
-  include: { phase: TEST }
-}
-layer {
-  name: "accuracy_sphere2"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere2"
-  accuracy_sphere_param {
-    tol_angle: 2
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere3"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere3"
-  accuracy_sphere_param {
-    tol_angle: 3
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere4"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere4"
-  accuracy_sphere_param {
-    tol_angle: 4
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere5"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere5"
-  accuracy_sphere_param {
-    tol_angle: 5
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere6"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere6"
-  accuracy_sphere_param {
-    tol_angle: 6
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere7"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere7"
-  accuracy_sphere_param {
-    tol_angle: 7
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_sphere8"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere8"
-  accuracy_sphere_param {
-    tol_angle: 8
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-
-layer {
-  name: "accuracy_sphere15"
-  type: "AccuracySphere"
-  #type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_sphere15"
-  accuracy_sphere_param {
-    tol_angle: 15
-    #top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_top5"
-  type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_top5"
-  accuracy_param {
-    top_k : 5 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_top10"
-  type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_top10"
-  accuracy_param {
-    top_k : 10 
-  }
-  include: { phase: TEST }
-}
-
-layer {
-  name: "accuracy_top13"
-  type: "Accuracy"
-  bottom: "fc8-new"
-  bottom: "label"
-  top: "accuracy_top13"
-  accuracy_param {
-    top_k : 13 
-  }
-  include: { phase: TEST }
+  top: "prob"
 }
